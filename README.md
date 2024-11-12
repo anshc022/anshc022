@@ -1,8 +1,14 @@
 # Pranshu Chourasia | Full Stack & App Developer
 [![](https://visitcount.itsvg.in/api?id=pranshu&label=Profile%20Views&color=1&icon=5&pretty=true)](https://visitcount.itsvg.in)
 
+<h1 align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=F7F7F7&width=435&lines=Hi+I'm+Pranshu+Chourasia;Full+Stack+Developer;Open+Source+Contributor;Tech+Enthusiast" alt="Typing SVG" />
+  </a>
+</h1>
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/anshc022/anshc022/f388d1eeb02321a69b30402f681e55b8629ac6ba/github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
 
 ## 👨‍💻 About Me
@@ -14,24 +20,20 @@ I'm a passionate Full Stack Developer and App Developer with a Computer Science 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=black)
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat&logo=next.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/-Express.js-000000?style=flat&logo=express&logoColor=white)
+![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white)
 
 ### Tools & Platforms
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-
-## 🏆 GitHub Achievements
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=anshc022&column=4&margin-w=15&margin-h=15&theme=darkhub" alt="GitHub Trophies"/>
-</p>
-
-### 🌟 Highlights
-- 🔥 Arctic Code Vault Contributor
-- 💫 Pull Shark Achievement
-- ⭐ Galaxy Brain Achievement
-- 🚀 Top Contributor in Open Source
-- 🛡️ Security Bug Bounty Hunter
-- 🎯 100 Days Streak Badge
+![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
+![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
+![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
+![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=flat&logo=postman&logoColor=white)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
 
 ## 🚀 Featured Projects
 
@@ -58,7 +60,7 @@ AI-powered evapotranspiration estimation using drone technology
 </p>
 
 <p align="center">
-  <img src="https://activity-graph.herokuapp.com/graph?username=anshc022&theme=github-dark" alt="Contribution Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anshc022&theme=react-dark&hide_border=true&custom_title=Contribution%20Graph" alt="Contribution Graph"/>
 </p>
 
 ## 🤝 Connect With Me
