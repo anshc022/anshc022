@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/anshc022/anshc022/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/anshc022/anshc022/f388d1eeb02321a69b30402f681e55b8629ac6ba/github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
 
 ## 👨‍💻 About Me
