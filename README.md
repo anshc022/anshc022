@@ -67,18 +67,28 @@ I'm a passionate Full Stack Developer and App Developer with a Computer Science 
 ![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat&logo=flutter&logoColor=white)
 ![Android](https://img.shields.io/badge/-Android-3DDC84?style=flat&logo=android&logoColor=white)
 
-## 📈 Skill Progress
+## 🏆 Featured Achievements
 
-<div align="left">
-  ![React](https://progress-bar.dev/90/?title=React&width=250&color=61DAFB)
-  ![JavaScript](https://progress-bar.dev/95/?title=JavaScript&width=250&color=F7DF1E)
-  ![TypeScript](https://progress-bar.dev/85/?title=TypeScript&width=250&color=3178C6)
-  ![Node.js](https://progress-bar.dev/88/?title=Node.js&width=250&color=339933)
-  ![Python](https://progress-bar.dev/85/?title=Python&width=250&color=3776AB)
-  ![MongoDB](https://progress-bar.dev/92/?title=MongoDB&width=250&color=47A248)
-  ![Docker](https://progress-bar.dev/80/?title=Docker&width=250&color=2496ED)
-  ![AWS](https://progress-bar.dev/75/?title=AWS&width=250&color=232F3E)
-  ![DevOps](https://progress-bar.dev/85/?title=DevOps&width=250&color=2088FF)
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://img.shields.io/badge/100+-Projects-31C442?style=for-the-badge&logo=github&logoColor=white"/>
+        <br />
+        <small>Completed Projects</small>
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/500+-Contributions-2088FF?style=for-the-badge&logo=github&logoColor=white"/>
+        <br />
+        <small>Open Source Contributions</small>
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/10+-Certifications-FF6C37?style=for-the-badge&logo=acclaim&logoColor=white"/>
+        <br />
+        <small>Tech Certifications</small>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ## 📊 GitHub Stats
