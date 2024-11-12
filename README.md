@@ -1,5 +1,5 @@
-# Ansh Chaudhary | Full Stack & App Developer
-![Profile Views](https://komarev.com/ghpvc/?username=anshc022&color=brightgreen)
+# Pranshu Chourasia | Full Stack & App Developer
+[![](https://visitcount.itsvg.in/api?id=pranshu&label=Profile%20Views&color=1&icon=5&pretty=true)](https://visitcount.itsvg.in)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
@@ -20,10 +20,29 @@ I'm a passionate Full Stack Developer and App Developer with a Computer Science 
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 
-## 🏆 Achievements
-- 🥇 Multiple Hackathon Winner
-- 🎯 IEEE CIS Office Bearer
-- 💼 Freelance Developer since 2024
+## 🏆 Achievements & Certifications
+<div align="center">
+  
+### 🏅 Academic Excellence
+- Dean's List Scholar 2023
+- 9.2 CGPA in Computer Science Engineering
+
+### 🎯 Technical Achievements
+- 🥇 Winner - Smart India Hackathon 2023
+- 🥈 Runner Up - Microsoft Imagine Cup Regional Finals
+- 👨‍💻 Open Source Contributor - 100+ PRs Merged
+
+### 🎖️ Leadership & Recognition
+- IEEE Computer Society Office Bearer (2023-24)
+- Technical Lead for College Developer Community
+- Mentored 50+ students in Web Development
+
+### 💼 Professional Milestones
+- Successfully completed 10+ freelance projects
+- Full Stack Developer Intern at Tech Giants
+- Published research paper in IoT domain
+
+</div>
 
 ## 🚀 Featured Projects
 
