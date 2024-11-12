@@ -1,112 +1,48 @@
-# About Me
+# Full Stack Developer & App Developer
 
-<style>
-  @keyframes slideIn {
-    from {
-      transform: translateX(-100%);
-    }
-    to {
-      transform: translateX(0);
-    }
-  }
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=anshc022&show_icons=true&hide_title=true&count_private=true&hide=prs&theme=dark)
 
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
+Hi there! 👋
 
-  .animated-text {
-    display: inline-block;
-    animation: slideIn 1s ease-out;
-    margin-bottom: 15px;
-  }
+I am a **Full Stack Developer** and **App Developer** with a background in **Computer Science Engineering**. I specialize in creating innovative web and mobile applications, and I’m passionate about tackling exciting projects in the world of **IoT** and **scalable web solutions**. 
 
-  .animated-skills {
-    display: inline-block;
-    animation: fadeIn 2s ease-in;
-    margin-top: 10px;
-  }
+## 🚀 Skills & Technologies
 
-  .animated-contact {
-    display: inline-block;
-    animation: fadeIn 3s ease-in;
-    margin-top: 15px;
-  }
+- **Languages**: Python, JavaScript
+- **Backend**: Django, Flask, Node.js, Express.js
+- **Frontend**: React, React Native
+- **Databases**: MongoDB, NoSQL, SQLite
+- **Other Technologies**: IoT, GitHub API, WebRTC, WebSocket
+- **Dev Tools**: Git, Docker, CI/CD
 
-  .skills-list {
-    list-style-type: none;
-    padding: 0;
-  }
+## 💼 Experience
 
-  .skills-list li {
-    margin-bottom: 8px;
-    font-size: 16px;
-  }
+- Started my freelance career in **early 2024**, focusing on building dynamic web solutions and developing scalable APIs.
+- **Hackathon Winner**: Led teams to victory in multiple hackathons.
+- **IEEE CIS Office Bearer**: Successfully organized and executed technical events and workshops.
 
-  .color-reference {
-    width: 100%;
-    border-collapse: collapse;
-  }
+## 🌟 Projects
 
-  .color-reference th,
-  .color-reference td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: center;
-  }
+Here are a few notable projects I've worked on:
 
-  .color-reference th {
-    background-color: #f2f2f2;
-  }
-</style>
+1. **[GitHub Activity Generator](https://github.com/anshc022/github-activity-generator)**  
+   A project to automate GitHub contributions with real-time progress tracking and intelligent commit distribution.
 
-<div class="animated-text">
-  Hi there! As a Full Stack Developer and App Developer with a background in Computer Science Engineering, I specialize in creating innovative web and mobile applications. With expertise in Python, Django, Flask, JavaScript, React, and React Native, I’ve been passionate about building dynamic web solutions, developing scalable APIs, and tackling exciting IoT projects since starting my freelance career in early 2024.
-</div>
+2. **[Drone-based Intelligent ET Sensing System](https://github.com/anshc022/drone-et-sensing)**  
+   A system to estimate actual evapotranspiration (AET) using drones and AI/ML for efficient water resource management.
 
-<div class="animated-text">
-  In addition to my development work, I’ve led teams to victory in hackathons and successfully organized and executed events as an IEEE CIS Office Bearer. My drive for solving complex problems and leveraging technology helps me deliver user-centric solutions that exceed expectations.
-</div>
+3. **[Smart Vision System for Quality Control](https://github.com/anshc022/smart-vision-quality-control)**  
+   An automated quality control system for Flipkart GRiD 6.0 using the NVIDIA Jetson Nano and Raspberry Pi.
 
-<div class="animated-text">
-  Let’s connect and explore how we can turn your vision into reality!
-</div>
+## 📬 Let's Connect!
 
-## Skills
+I am always open to new opportunities, collaborations, and challenges. Let’s connect and explore how we can turn your vision into reality!
 
-<div class="animated-skills">
-  <ul class="skills-list">
-    <li><strong>Languages:</strong> Python, JavaScript</li>
-    <li><strong>Frameworks:</strong> Django, Flask, React, React Native, Node.js, Express.js</li>
-    <li><strong>Databases:</strong> MongoDB, NoSQL, SQLite</li>
-    <li><strong>Other:</strong> IoT Solutions</li>
-  </ul>
-</div>
+Feel free to reach out to me through:
 
-## Contact
+- **[LinkedIn](https://www.linkedin.com/in/yourprofile)**
+- **[Email](mailto:your-email@example.com)**
 
-<div class="animated-contact">
-  Feel free to reach out to me via [LinkedIn](your-linkedin-profile) or [Email](your-email@example.com).
-</div>
+---
 
-# 🔗 Links
-[![Portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://your-portfolio-link/)
-[![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
-[![Twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
-
-## Color Reference
-
-<table class="color-reference">
-  <tr>
-    <th>Color</th>
-    <th>Hex</th>
-  </tr>
-  <tr>
-    <td>Example Color</td>
-    <td><div style="background-color:#0a192f;width:100%;height:20px;"></div>#0a192f</td>
-  </tr>
-</table>
+![Coder GIF](https://media.giphy.com/media/26gJ2v7nsswz2/giphy.gif)
