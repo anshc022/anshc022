@@ -25,8 +25,6 @@ I'm a passionate Full Stack Developer and App Developer with a Computer Science 
   <img src="https://github-profile-trophy.vercel.app/?username=anshc022&column=4&margin-w=15&margin-h=15&theme=darkhub" alt="GitHub Trophies"/>
 </p>
 
-<div align="center">
-
 ### 🌟 Highlights
 - 🔥 Arctic Code Vault Contributor
 - 💫 Pull Shark Achievement
@@ -34,8 +32,6 @@ I'm a passionate Full Stack Developer and App Developer with a Computer Science 
 - 🚀 Top Contributor in Open Source
 - 🛡️ Security Bug Bounty Hunter
 - 🎯 100 Days Streak Badge
-
-</div>
 
 ## 🚀 Featured Projects
 
