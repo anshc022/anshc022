@@ -104,7 +104,7 @@ AI-powered evapotranspiration estimation using drone technology
 ## 🤝 Connect With Me
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=LinkedIn&logoColor=white)](https://linkedin.com/in/anshc022)
 [![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=Gmail&logoColor=white)](mailto:your-email@example.com)
-[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=flat&logo=About.me&logoColor=white)](https://anshc022.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=flat&logo=About.me&logoColor=white)](https://pranshu-next-js.vercel.app/)
 
 ---
 <p align="center">
