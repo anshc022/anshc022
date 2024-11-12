@@ -83,42 +83,4 @@ I'm a passionate Full Stack Developer and App Developer with a Computer Science 
         <small>Open Source Contributions</small>
       </td>
       <td align="center">
-        <img src="https://img.shields.io/badge/10+-Certifications-FF6C37?style=for-the-badge&logo=acclaim&logoColor=white"/>
-        <br />
-        <small>Tech Certifications</small>
-      </td>
-    </tr>
-  </table>
-</div>
-
-## 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=anshc022&theme=dark" alt="GitHub Streak"/>
-</p>
-
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=anshc022&show_icons=true&theme=dark&count_private=true&include_all_commits=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anshc022&layout=compact&theme=dark&langs_count=8"/>
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=anshc022&theme=darkhub&no-frame=true&row=1&column=7" alt="Trophy"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anshc022&theme=react-dark&hide_border=true&custom_title=Contribution%20Graph&area=true&point=false&line=31C442&area_color=21914A" alt="Contribution Graph"/>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
-</p>
-
-## 🤝 Connect With Me
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/pranshu-chourasia-615428275/)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=Gmail&logoColor=white)](mailto:rishukrchaursia007@gmail.com)
-[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=flat&logo=About.me&logoColor=white)](https://pranshu-next-js.vercel.app/)
-
----
-<p align="center">
-  <i>Let's build something amazing together! 🚀</i>
-</p>
+        <img src="https://img.shields.io/badge/10+-Certifications-FF6C37?style=for-the-badge&logo=acclaim&logoColor=white
