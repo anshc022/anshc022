@@ -1,25 +1,23 @@
-# anshc022
+# Hi there! 👋
 
-Automatic contribution generator
+## Full Stack Developer & App Developer
 
-# Update 1: 2024-11-07 18:21:19
+### Expert in Django, Flask, React, React Native, Node.js & Express.js | Python & JavaScript Enthusiast | MongoDB, NoSQL, SQLite & IoT Solutions
 
-# Update 12: 2024-11-07 12:25:27
+Hi there! As a Full Stack Developer and App Developer with a background in Computer Science Engineering, I specialize in creating innovative web and mobile applications. With expertise in Python, Django, Flask, JavaScript, React, and React Native, I’ve been passionate about building dynamic web solutions, developing scalable APIs, and tackling exciting IoT projects since starting my freelance career in early 2024.
 
-# Update 16: 2024-11-08 18:50:50
+In addition to my development work, I’ve led teams to victory in hackathons and successfully organized and executed events as an IEEE CIS Office Bearer. My drive for solving complex problems and leveraging technology helps me deliver user-centric solutions that exceed expectations.
 
-# Update 23: 2024-11-08 10:07:01
+Let’s connect and explore how we can turn your vision into reality!
 
-# Update 28: 2024-11-09 16:04:01
+### Connect with me:
+- [LinkedIn](https://www.linkedin.com/in/your-profile)
+- [GitHub](https://github.com/your-profile)
+- [Twitter](https://twitter.com/your-profile)
+- [Personal Website](https://yourwebsite.com)
 
-# Update 29: 2024-11-09 14:20:58
+### GitHub Streak:
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=your-username)
 
-# Update 31: 2024-11-09 10:31:22
-
-# Update 35: 2024-11-10 18:28:17
-
-# Update 36: 2024-11-10 13:44:35
-
-# Update 39: 2024-11-10 12:46:24
-
-# Update 44: 2024-11-10 10:10:04
+![Burger Animation](https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif)
+![Green Graph Animation](https://media.giphy.com/media/l0HlNQ03J5JxX6lva/giphy.gif)
