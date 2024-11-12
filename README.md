@@ -36,6 +36,10 @@ AI-powered evapotranspiration estimation using drone technology
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=anshc022&theme=dark" alt="GitHub Streak"/>
 </p>
 
+<p align="center">
+  <img src="https://activity-graph.herokuapp.com/graph?username=anshc022&theme=github-dark" alt="Contribution Graph"/>
+</p>
+
 ## 🤝 Connect With Me
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=LinkedIn&logoColor=white)](https://linkedin.com/in/yourprofile)
 [![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=Gmail&logoColor=white)](mailto:your-email@example.com)
