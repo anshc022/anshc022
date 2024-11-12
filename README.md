@@ -71,13 +71,17 @@ I'm a passionate Full Stack Developer and App Developer with a Computer Science 
 
 ## 🚀 Featured Projects
 
-### [GitHub Activity Generator](https://github.com/anshc022/github-activity-generator)
-Automated contribution tracking system with smart commit distribution
-![Stars](https://img.shields.io/github/stars/anshc022/github-activity-generator?style=social)
+### [NextJS-Portfolio](https://github.com/anshc022/nextjs-portfolio)
+Modern portfolio website built with Next.js and TailwindCSS
+![Stars](https://img.shields.io/github/stars/anshc022/nextjs-portfolio?style=social)
 
-### [Drone-based ET Sensing](https://github.com/anshc022/drone-et-sensing)
-AI-powered evapotranspiration estimation using drone technology
-![Stars](https://img.shields.io/github/stars/anshc022/drone-et-sensing?style=social)
+### [Amazon Product Scraper](https://github.com/anshc022/amazon-scraper)
+Automated web scraping tool for Amazon product data analysis
+![Stars](https://img.shields.io/github/stars/anshc022/amazon-scraper?style=social)
+
+### [Space Invaders](https://github.com/anshc022/space-invaders)
+Classic arcade game recreated with modern JavaScript
+![Stars](https://img.shields.io/github/stars/anshc022/space-invaders?style=social)
 
 ## 📊 GitHub Stats
 <p align="center">
