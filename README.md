@@ -6,10 +6,6 @@
   </a>
 </h1>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
-</p>
-
 ## 👨‍💻 About Me
 I'm a passionate Full Stack Developer and App Developer with a Computer Science Engineering background. I thrive on building innovative solutions in web development, mobile apps, and IoT integration.
 
@@ -60,6 +56,10 @@ AI-powered evapotranspiration estimation using drone technology
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=anshc022&theme=react-dark&hide_border=true&custom_title=Contribution%20Graph" alt="Contribution Graph"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
 </p>
 
 ## 🤝 Connect With Me
