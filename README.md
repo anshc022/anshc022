@@ -69,25 +69,17 @@ I'm a passionate Full Stack Developer and App Developer with a Computer Science 
 
 ## 📈 Skill Progress
 
-<p align="left">
-  <b>Frontend Development</b>
-  <br/>
-  ![React & Next.js](https://progress-bar.dev/90/?title=React+%26+Next.js&width=200&color=61DAFB)
-  ![JavaScript](https://progress-bar.dev/95/?title=JavaScript&width=200&color=F7DF1E)
-  ![TypeScript](https://progress-bar.dev/85/?title=TypeScript&width=200&color=3178C6)
-  
-  <b>Backend Development</b>
-  <br/>
-  ![Node.js](https://progress-bar.dev/88/?title=Node.js&width=200&color=339933)
-  ![Python](https://progress-bar.dev/85/?title=Python&width=200&color=3776AB)
-  ![Database](https://progress-bar.dev/92/?title=Database&width=200&color=47A248)
-  
-  <b>DevOps & Cloud</b>
-  <br/>
-  ![Docker](https://progress-bar.dev/80/?title=Docker&width=200&color=2496ED)
-  ![AWS](https://progress-bar.dev/75/?title=AWS&width=200&color=232F3E)
-  ![CI/CD](https://progress-bar.dev/85/?title=CI/CD&width=200&color=2088FF)
-</p>
+<div align="left">
+  ![React](https://progress-bar.dev/90/?title=React&width=250&color=61DAFB)
+  ![JavaScript](https://progress-bar.dev/95/?title=JavaScript&width=250&color=F7DF1E)
+  ![TypeScript](https://progress-bar.dev/85/?title=TypeScript&width=250&color=3178C6)
+  ![Node.js](https://progress-bar.dev/88/?title=Node.js&width=250&color=339933)
+  ![Python](https://progress-bar.dev/85/?title=Python&width=250&color=3776AB)
+  ![MongoDB](https://progress-bar.dev/92/?title=MongoDB&width=250&color=47A248)
+  ![Docker](https://progress-bar.dev/80/?title=Docker&width=250&color=2496ED)
+  ![AWS](https://progress-bar.dev/75/?title=AWS&width=250&color=232F3E)
+  ![DevOps](https://progress-bar.dev/85/?title=DevOps&width=250&color=2088FF)
+</div>
 
 ## 📊 GitHub Stats
 <p align="center">
@@ -100,6 +92,12 @@ I'm a passionate Full Stack Developer and App Developer with a Computer Science 
 </p>
 
 <p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=anshc022&theme=darkhub&no-frame=true&row=1&column=7" alt="Trophy"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anshc022&theme=react-dark&hide_border=true&custom_title=Contribution%20Graph&area=true&point=false&line=31C442&area_color=21914A" alt="Contribution Graph"/>
+</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
