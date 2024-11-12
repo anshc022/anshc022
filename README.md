@@ -1,48 +1,47 @@
-# Full Stack Developer & App Developer
+# Ansh Chaudhary | Full Stack & App Developer
+![Profile Views](https://komarev.com/ghpvc/?username=anshc022&color=brightgreen)
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=anshc022&show_icons=true&hide_title=true&count_private=true&hide=prs&theme=dark)
+## 👨‍💻 About Me
+I'm a passionate Full Stack Developer and App Developer with a Computer Science Engineering background. I thrive on building innovative solutions in web development, mobile apps, and IoT integration.
 
-Hi there! 👋
+## 🛠️ Tech Arsenal
+### Languages & Frameworks
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=Python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=black)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white)
 
-I am a **Full Stack Developer** and **App Developer** with a background in **Computer Science Engineering**. I specialize in creating innovative web and mobile applications, and I’m passionate about tackling exciting projects in the world of **IoT** and **scalable web solutions**. 
+### Tools & Platforms
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 
-## 🚀 Skills & Technologies
+## 🏆 Achievements
+- 🥇 Multiple Hackathon Winner
+- 🎯 IEEE CIS Office Bearer
+- 💼 Freelance Developer since 2024
 
-- **Languages**: Python, JavaScript
-- **Backend**: Django, Flask, Node.js, Express.js
-- **Frontend**: React, React Native
-- **Databases**: MongoDB, NoSQL, SQLite
-- **Other Technologies**: IoT, GitHub API, WebRTC, WebSocket
-- **Dev Tools**: Git, Docker, CI/CD
+## 🚀 Featured Projects
 
-## 💼 Experience
+### [GitHub Activity Generator](https://github.com/anshc022/github-activity-generator)
+Automated contribution tracking system with smart commit distribution
+![Stars](https://img.shields.io/github/stars/anshc022/github-activity-generator?style=social)
 
-- Started my freelance career in **early 2024**, focusing on building dynamic web solutions and developing scalable APIs.
-- **Hackathon Winner**: Led teams to victory in multiple hackathons.
-- **IEEE CIS Office Bearer**: Successfully organized and executed technical events and workshops.
+### [Drone-based ET Sensing](https://github.com/anshc022/drone-et-sensing)
+AI-powered evapotranspiration estimation using drone technology
+![Stars](https://img.shields.io/github/stars/anshc022/drone-et-sensing?style=social)
 
-## 🌟 Projects
+## 📊 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=anshc022&theme=dark" alt="GitHub Streak"/>
+</p>
 
-Here are a few notable projects I've worked on:
-
-1. **[GitHub Activity Generator](https://github.com/anshc022/github-activity-generator)**  
-   A project to automate GitHub contributions with real-time progress tracking and intelligent commit distribution.
-
-2. **[Drone-based Intelligent ET Sensing System](https://github.com/anshc022/drone-et-sensing)**  
-   A system to estimate actual evapotranspiration (AET) using drones and AI/ML for efficient water resource management.
-
-3. **[Smart Vision System for Quality Control](https://github.com/anshc022/smart-vision-quality-control)**  
-   An automated quality control system for Flipkart GRiD 6.0 using the NVIDIA Jetson Nano and Raspberry Pi.
-
-## 📬 Let's Connect!
-
-I am always open to new opportunities, collaborations, and challenges. Let’s connect and explore how we can turn your vision into reality!
-
-Feel free to reach out to me through:
-
-- **[LinkedIn](https://www.linkedin.com/in/yourprofile)**
-- **[Email](mailto:your-email@example.com)**
+## 🤝 Connect With Me
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=LinkedIn&logoColor=white)](https://linkedin.com/in/yourprofile)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=Gmail&logoColor=white)](mailto:your-email@example.com)
+[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=flat&logo=About.me&logoColor=white)](https://yourportfolio.com)
 
 ---
-
-![Coder GIF](https://media.giphy.com/media/26gJ2v7nsswz2/giphy.gif)
+<p align="center">
+  <i>Let's build something amazing together! 🚀</i>
+</p>
