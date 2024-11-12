@@ -1,6 +1,10 @@
 # Ansh Chaudhary | Full Stack & App Developer
 ![Profile Views](https://komarev.com/ghpvc/?username=anshc022&color=brightgreen)
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</p>
+
 ## 👨‍💻 About Me
 I'm a passionate Full Stack Developer and App Developer with a Computer Science Engineering background. I thrive on building innovative solutions in web development, mobile apps, and IoT integration.
 
@@ -34,6 +38,15 @@ AI-powered evapotranspiration estimation using drone technology
 ## 📊 GitHub Stats
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=anshc022&theme=dark" alt="GitHub Streak"/>
+</p>
+
+<p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=anshc022&show_icons=true&theme=dark"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anshc022&layout=compact&theme=dark"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=anshc022&theme=darkhub&no-frame=true&row=1" alt="Trophy"/>
 </p>
 
 <p align="center">
