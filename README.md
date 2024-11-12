@@ -20,27 +20,20 @@ I'm a passionate Full Stack Developer and App Developer with a Computer Science 
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 
-## 🏆 Achievements & Certifications
+## 🏆 GitHub Achievements
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=anshc022&column=4&margin-w=15&margin-h=15&theme=darkhub" alt="GitHub Trophies"/>
+</p>
+
 <div align="center">
-  
-### 🏅 Academic Excellence
-- Dean's List Scholar 2023
-- 9.2 CGPA in Computer Science Engineering
 
-### 🎯 Technical Achievements
-- 🥇 Winner - Smart India Hackathon 2023
-- 🥈 Runner Up - Microsoft Imagine Cup Regional Finals
-- 👨‍💻 Open Source Contributor - 100+ PRs Merged
-
-### 🎖️ Leadership & Recognition
-- IEEE Computer Society Office Bearer (2023-24)
-- Technical Lead for College Developer Community
-- Mentored 50+ students in Web Development
-
-### 💼 Professional Milestones
-- Successfully completed 10+ freelance projects
-- Full Stack Developer Intern at Tech Giants
-- Published research paper in IoT domain
+### 🌟 Highlights
+- 🔥 Arctic Code Vault Contributor
+- 💫 Pull Shark Achievement
+- ⭐ Galaxy Brain Achievement
+- 🚀 Top Contributor in Open Source
+- 🛡️ Security Bug Bounty Hunter
+- 🎯 100 Days Streak Badge
 
 </div>
 
