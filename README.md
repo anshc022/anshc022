@@ -9,6 +9,17 @@
 ## 👨‍💻 About Me
 I'm a passionate Full Stack Developer and App Developer with a Computer Science Engineering background. I thrive on building innovative solutions in web development, mobile apps, and IoT integration.
 
+## 🌱 Currently Learning
+- Blockchain Development
+- Cloud Architecture
+- Machine Learning with TensorFlow
+- Microservices Architecture
+
+## 💻 Workspace Specs
+![CPU](https://img.shields.io/badge/Intel-Core_i7_12th-0071C5?style=flat&logo=intel&logoColor=white)
+![GPU](https://img.shields.io/badge/NVIDIA-RTX_3060-76B900?style=flat&logo=nvidia&logoColor=white)
+![OS](https://img.shields.io/badge/Linux-Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white)
+
 ## 🛠️ Tech Arsenal
 ### Languages & Frameworks
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=Python&logoColor=white)
@@ -29,6 +40,8 @@ I'm a passionate Full Stack Developer and App Developer with a Computer Science 
 ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
 ![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=flat&logo=postman&logoColor=white)
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
+
+## 📈 Skill Progress
 
 ## 🚀 Featured Projects
 
