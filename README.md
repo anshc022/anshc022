@@ -18,30 +18,9 @@
 
 ## 🤖 About This Human
 
-```javascript
-const pranshu = {
-    name: "Pranshu Chourasia",
-    role: "Full Stack Sorcerer",
-    location: "Somewhere between Stack Overflow and GitHub",
-    currentMood: "Debugging my life one console.log at a time",
-    favoriteBug: "It's not a bug, it's a feature!",
-    
-    workingOn: {
-        frontend: "Making pixels dance",
-        backend: "Teaching servers to behave",
-        mobile: "Apps that don't crash (hopefully)",
-        iot: "Making everything smart except my jokes"
-    },
-    
-    funFacts: [
-        "I speak fluent JavaScript and broken English",
-        "My code works on my machine (always)",
-        "I have a love-hate relationship with CSS",
-        "Stack Overflow is my second home",
-        "I debug with console.log like a true professional"
-    ]
-};
-```
+Hey there! I'm **Pranshu Chourasia**, a passionate Full Stack Developer who loves turning ideas into reality through code. I specialize in building web applications, mobile apps, and IoT solutions that actually work (most of the time 😄).
+
+When I'm not busy debugging my latest creation, you'll find me exploring new technologies, contributing to open source projects, or probably getting lost in documentation somewhere between Stack Overflow and GitHub!
 
 ## 🧠 Currently Upgrading My Brain With
 - 🔗 **Blockchain Development** *(Because regular chains are too mainstream)*
