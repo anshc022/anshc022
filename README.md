@@ -68,8 +68,18 @@
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=anshc022&theme=radical&hide_border=true&background=0d1117&stroke=ff6e96&ring=ff6e96&fire=ff6e96&currStreakLabel=ff6e96)](https://git.io/streak-stats)
 
-### 🏆 GitHub Trophies
-<img src="https://github-profile-trophy.vercel.app/?username=anshc022&theme=radical&row=2&column=4&margin-w=10&margin-h=10&no-bg=false&no-frame=false" alt="GitHub Trophies" width="100%">
+### 🏆 GitHub Achievements
+
+<p align="left">
+<img src="https://github-profile-trophy.vercel.app/?username=anshc022&theme=onedark&no-frame=true&no-bg=true&margin-w=4" alt="Trophies">
+</p>
+
+**🎯 Achievement Highlights:**
+- 🌟 **Active Contributor** - Consistent coding activity
+- 💻 **Multi-Language Developer** - Proficient in 10+ languages  
+- 🚀 **Project Creator** - Multiple successful repositories
+- 📈 **Growing Profile** - Increasing followers and stars
+- 🤝 **Open Source Contributor** - Community involvement
 
 ### 🎯 GitHub Stats
 <table>
