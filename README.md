@@ -1,16 +1,12 @@
-# 👋 Hello World! I'm Pranshu Ansh
+# 👋 Hello World! I'm Pranshu Chourasia (Ansh)
 
 <p align="left">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=FF6E96&width=600&lines=AI%2FML+Engineer+%26+Full-Stack+Developer;5%2B+Years+Coding+%7C+IEEE+Researcher;Building+Smart+Systems+%26+Scalable+Apps;Always+Learning+%2C+Always+Building!" alt="Typing SVG">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=FF6E96&width=800&lines=AI%2FML+Engineer+%26+Full-Stack+Developer;5%2B+Years+Coding+%7C+IEEE+Researcher;Building+Smart+Systems+%26+Scalable+Apps;Always+Learning+%2C+Always+Building!" alt="Typing SVG">
 </p>
 
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-pranshudev.xyz-ff6e96?style=for-the-badge&logo=safari&logoColor=white)](https://www.pranshudev.xyz/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pranshu-ansh)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anshc022@gmail.com)Hello World! I'm Pranshu Ansh
-
-<p align="left">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=FF6E96&width=600&lines=AI%2FML+Engineer+%26+Full-Stack+Developer;5%2B+Years+Coding+%7C+IEEE+Researcher;Building+Smart+Systems+%26+Scalable+Apps;Always+Learning+%2C+Always+Building!" alt="Typing SVG">
-</p>
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anshc022@gmail.com)
 
 ---
 
