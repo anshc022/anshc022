@@ -1,0 +1,109 @@
+name: Code Quality & Security
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: '0 3 * * 0' # Weekly on Sunday at 3 AM
+
+jobs:
+  code-quality:
+    name: Code Quality Analysis
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Install Python dependencies
+        run: |
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+            pip install flake8 black isort bandit safety
+          fi
+          
+      - name: Install Node dependencies
+        run: |
+          if [ -f package.json ]; then
+            npm install
+            npm install -g eslint prettier
+          fi
+          
+      - name: Python Code Quality
+        run: |
+          if [ -f requirements.txt ]; then
+            echo "🐍 Running Python code quality checks..."
+            black --check --diff .
+            isort --check-only --diff .
+            flake8 .
+          fi
+          
+      - name: Python Security Check
+        run: |
+          if [ -f requirements.txt ]; then
+            echo "🔒 Running Python security checks..."
+            bandit -r . -f json -o bandit-report.json || true
+            safety check
+          fi
+          
+      - name: JavaScript/TypeScript Code Quality
+        run: |
+          if [ -f package.json ]; then
+            echo "📜 Running JS/TS code quality checks..."
+            npx prettier --check .
+            npx eslint . --ext .js,.jsx,.ts,.tsx
+          fi
+          
+      - name: Upload Security Report
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: security-report
+          path: bandit-report.json
+          
+  dependency-review:
+    name: Dependency Review
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        
+      - name: Dependency Review
+        uses: actions/dependency-review-action@v3
+        with:
+          fail-on-severity: moderate
+          
+  codeql-analysis:
+    name: CodeQL Analysis
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: read
+      security-events: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v2
+        with:
+          languages: python, javascript
+          
+      - name: Autobuild
+        uses: github/codeql-action/autobuild@v2
+        
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v2

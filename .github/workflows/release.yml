@@ -1,0 +1,95 @@
+name: Release Automation
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Release version (e.g., v1.0.0)'
+        required: true
+        type: string
+
+jobs:
+  create-release:
+    name: Create Release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Generate Changelog
+        id: changelog
+        uses: TriPSs/conventional-changelog-action@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          skip-version-file: true
+          output-file: false
+          
+      - name: Create GitHub Release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref_name || inputs.version }}
+          release_name: Release ${{ github.ref_name || inputs.version }}
+          body: |
+            ## 🚀 What's New in ${{ github.ref_name || inputs.version }}
+            
+            ${{ steps.changelog.outputs.changelog }}
+            
+            ## 📊 Project Stats
+            - **Languages**: Python, JavaScript, TypeScript
+            - **Frameworks**: React, Next.js, Django, FastAPI
+            - **Tools**: Docker, AWS, GitHub Actions
+            
+            ## 🙏 Contributors
+            Thank you to all contributors who made this release possible!
+            
+            ---
+            
+            **Full Changelog**: https://github.com/anshc022/anshc022/compare/${{ steps.changelog.outputs.previous_tag }}...${{ github.ref_name || inputs.version }}
+          draft: false
+          prerelease: false
+          
+      - name: Update Profile Stats
+        run: |
+          echo "📈 Updating profile statistics..."
+          # Add any custom scripts to update README with latest release info
+          
+  notify-release:
+    name: Notify Release
+    runs-on: ubuntu-latest
+    needs: create-release
+    steps:
+      - name: Send Discord Notification
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          if [ ! -z "$DISCORD_WEBHOOK" ]; then
+            curl -H "Content-Type: application/json" \
+                 -X POST \
+                 -d "{\"content\":\"🚀 **New Release**: ${{ github.ref_name || inputs.version }} is now available! 🎉\"}" \
+                 $DISCORD_WEBHOOK
+          fi
+          
+      - name: Send Slack Notification
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        run: |
+          if [ ! -z "$SLACK_WEBHOOK" ]; then
+            curl -X POST -H 'Content-type: application/json' \
+                 --data "{\"text\":\"🚀 New release ${{ github.ref_name || inputs.version }} is available!\"}" \
+                 $SLACK_WEBHOOK
+          fi

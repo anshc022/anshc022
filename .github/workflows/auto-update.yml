@@ -1,0 +1,66 @@
+name: Auto Update Dependencies
+
+on:
+  schedule:
+    - cron: '0 2 * * 1' # Weekly on Monday at 2 AM
+  workflow_dispatch:
+
+jobs:
+  update-dependencies:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          
+      - name: Update Python Dependencies
+        run: |
+          if [ -f requirements.txt ]; then
+            pip install --upgrade pip
+            pip install pip-review
+            pip-review --auto
+            pip freeze > requirements.txt
+          fi
+          
+      - name: Update Node Dependencies
+        run: |
+          if [ -f package.json ]; then
+            npm update
+            npm audit fix
+          fi
+          
+      - name: Lint GitHub Actions
+        uses: github/super-linter@v4
+        env:
+          DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VALIDATE_GITHUB_ACTIONS: true
+          VALIDATE_ALL_CODEBASE: false
+          
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: '⬆️ Update dependencies'
+          title: '⬆️ Auto-update dependencies'
+          body: |
+            🤖 **Automated dependency update**
+            
+            This PR contains automatic updates to:
+            - Python packages (requirements.txt)
+            - Node.js packages (package.json)
+            - GitHub Actions versions
+            
+            Please review the changes before merging.
+          branch: auto-update-dependencies
+          delete-branch: true
