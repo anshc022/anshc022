@@ -137,6 +137,12 @@
 
 <div align="center">
   
+### 💻 Full-Stack Apps
+
+</div>
+
+<div align="center">
+  
 ### � IEEE Publications
 
 <div align="center">
