@@ -4,6 +4,14 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=FF6E96&width=600&lines=AI%2FML+Engineer+%26+Full-Stack+Developer;5%2B+Years+Coding+%7C+IEEE+Researcher;Building+Smart+Systems+%26+Scalable+Apps;Always+Learning+%2C+Always+Building!" alt="Typing SVG">
 </p>
 
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-pranshudev.xyz-ff6e96?style=for-the-badge&logo=safari&logoColor=white)](https://www.pranshudev.xyz/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pranshu-ansh)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anshc022@gmail.com)Hello World! I'm Pranshu Ansh
+
+<p align="left">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=FF6E96&width=600&lines=AI%2FML+Engineer+%26+Full-Stack+Developer;5%2B+Years+Coding+%7C+IEEE+Researcher;Building+Smart+Systems+%26+Scalable+Apps;Always+Learning+%2C+Always+Building!" alt="Typing SVG">
+</p>
+
 ---
 
 ## 🚀 About Me
@@ -61,7 +69,15 @@
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=anshc022&theme=radical&hide_border=true&background=0d1117&stroke=ff6e96&ring=ff6e96&fire=ff6e96&currStreakLabel=ff6e96)](https://git.io/streak-stats)
 
 ### 🏆 GitHub Trophies
-<img src="https://github-profile-trophy.vercel.app/?username=anshc022&theme=radical&no-frame=true&no-bg=false&margin-w=4&margin-h=1&column=7" alt="GitHub Trophies" width="100%">
+[![trophy](https://github-profile-trophy.vercel.app/?username=anshc022&theme=radical&row=1&column=6&margin-w=15&margin-h=15&no-bg=true&no-frame=true)](https://github.com/ryo-ma/github-profile-trophy)
+
+### 🎯 GitHub Stats
+<table>
+<tr>
+<td><img src="https://github-readme-stats.vercel.app/api?username=anshc022&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117" alt="GitHub Stats" width="100%"></td>
+<td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anshc022&layout=compact&theme=radical&hide_border=true&bg_color=0d1117" alt="Top Languages" width="100%"></td>
+</tr>
+</table>
 
 ### 📈 GitHub Summary
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anshc022&theme=radical" alt="GitHub Profile Summary" width="100%">
@@ -236,7 +252,7 @@ graph TD
 - 📧 **Email:** [anshc022@gmail.com](mailto:anshc022@gmail.com)
 - 💼 **LinkedIn:** [pranshu-ansh](https://linkedin.com/in/pranshu-ansh)
 - 🐦 **Twitter:** [@anshc022](https://twitter.com/anshc022)
-- 🌐 **Portfolio:** [anshc022.dev](https://anshc022.dev)
+- 🌐 **Portfolio:** [pranshudev.xyz](https://www.pranshudev.xyz/)
 
 </td>
 </tr>
