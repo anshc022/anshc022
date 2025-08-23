@@ -1,92 +1,43 @@
-# 👋 Hey there! I'm Pranshu Chourasia 
+# 👋 Hello World! I'm Pranshu Ansh
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=36BCF7&center=false&vCenter=true&width=800&lines=AI%2FML+Engineer+%F0%9F%A4%96;Full-Stack+Developer+%F0%9F%9A%80;IEEE+Researcher+%F0%9F%94%AC;Smart+India+Hackathon+Participant+%F0%9F%8F%86;Open+Source+Contributor+%E2%9C%A8;Building+the+Future+%F0%9F%8C%9F" alt="Typing SVG" />
-
-<!-- Animated Wave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=header" width="100%">
-
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-pranshudev.xyz-blue?style=for-the-badge&logo=firefox&logoColor=white)](https://pranshudev.xyz)
-[![Email](https://img.shields.io/badge/📧_Email-contact%40pranshudev.xyz-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@pranshudev.xyz)
-[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-pranshu--chourasia-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pranshu-chourasia-615428275)
-[![GitHub](https://img.shields.io/badge/🚀_GitHub-anshc022-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anshc022)
-
-<!-- Profile Views Counter -->
 <p align="left">
-  <img src="https://komarev.com/ghpvc/?username=anshc022&label=Profile%20views&color=0e75b6&style=flat" alt="anshc022" />
-  <img src="https://img.shields.io/github/followers/anshc022?label=Followers&style=social" alt="GitHub Badge">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=FF6E96&width=600&lines=AI%2FML+Engineer+%26+Full-Stack+Developer;5%2B+Years+Coding+%7C+IEEE+Researcher;Building+Smart+Systems+%26+Scalable+Apps;Always+Learning+%2C+Always+Building!" alt="Typing SVG">
 </p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## 🎯 About Me
-
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
-
-> **🚀 AI/ML Engineer & Full-Stack Developer** 
-
-🔥 Transforming **coffee** ☕ into **code** 💻 and **ideas** 💡 into **reality** ⚡
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=2000&pause=500&color=FF6E96&width=600&lines=🤖+AI%2FML+Specialist;💻+Full-Stack+Developer;🔬+IEEE+Researcher;🏆+Hackathon+Winner;💰+%245500+Grant+Recipient;👨‍💻+Tech+Mentor" alt="Skills" />
-
-### 🏆 Quick Wins
-```
-🔬 IEEE Papers     ██████████ 2 Published
-💰 Grant Funding   ██████████ $5500 Secured  
-🚀 Enterprise Apps ██████████ 10+ Delivered
-👥 Developers      ██████████ 25+ Mentored
-🎯 AI Accuracy     ██████████ 90%+ Average
-💸 Revenue         ██████████ ₹45,900 Generated
-```
-
 ---
 
-## 💻 Tech Arsenal
+## 🚀 About Me
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+🎯 **AI/ML Engineer** passionate about creating intelligent systems that solve real-world problems  
+💻 **Full-Stack Developer** with 5+ years of experience building scalable applications  
+🏆 **IEEE Researcher** with published papers and $5500+ in research grants  
+🌟 **Entrepreneur** who generated ₹45,900 revenue in 3 months  
 
-<div align="center">
-  
-### 🚀 My Superpowers
+## 🛠️ Tech Arsenal
 
-<img src="https://skillicons.dev/icons?i=python,pytorch,opencv,tensorflow,js,react,nextjs,nodejs,express,django,flask,fastapi,mongodb,postgres,aws,docker,git,vscode&theme=dark" alt="Tech Stack" />
+**Languages & Frameworks:**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 
-</div>
+**AI/ML & Data:**
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=flat-square&logo=OpenCV&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Scikit Learn](https://img.shields.io/badge/scikit_learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 
-### 📊 Skill Levels
+**Cloud & DevOps:**
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anshc022&layout=donut&theme=radical&hide_border=true&bg_color=0d1117" width="300" align="right">
-
-**AI/ML & Computer Vision**
-![](https://geps.dev/progress/95?color=ff6e96) 95%
-
-**Full-Stack Development** 
-![](https://geps.dev/progress/90?color=00d4aa) 90%
-
-**DevOps & Cloud**
-![](https://geps.dev/progress/85?color=ffb347) 85%
-
-**Research & Writing**
-![](https://geps.dev/progress/95?color=a78bfa) 95%
-
-**Leadership & Mentoring**
-![](https://geps.dev/progress/88?color=fb7185) 88%
-
----
-
-## 📊 GitHub Analytics & Battle Stats
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-<table>
-<tr>
-<td>
-<img height="200em" src="https://github-readme-stats.vercel.app/api?username=anshc022&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=ff6e96&icon_color=ff6e96&text_color=c9d1d9"/>
-</td>
-<td>
-<img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anshc022&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=ff6e96&text_color=c9d1d9"/>
-</td>
-</tr>
-</table>
+## 📊 GitHub Analytics
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=anshc022&theme=radical&hide_border=true&background=0d1117&stroke=ff6e96&ring=ff6e96&fire=ff6e96&currStreakLabel=ff6e96)](https://git.io/streak-stats)
 
@@ -114,78 +65,23 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<div align="center">
-  
 ### 🤖 AI/ML Projects
-
-</div>
-
-<div align="center">
-  
-### 🤖 AI/ML Projects
-
-<div align="center">
 
 | 🌽 Smart Corn Sorter | 🔒 Safety Analytics | 🛒 Quality Analyzer | 🚦 Traffic AI |
-|:---:|:---:|:---:|:---:|
+|---|---|---|---|
 | <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="80"> | <img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="80"> | <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="80"> | <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="80"> |
 | <img src="https://img.shields.io/badge/IEEE_EPICS-$5500-gold?style=for-the-badge"> | <img src="https://img.shields.io/badge/SIH_2024-Winner-blue?style=for-the-badge"> | <img src="https://img.shields.io/badge/Flipkart_GRiD-Finalist-purple?style=for-the-badge"> | <img src="https://img.shields.io/badge/Nissan_R&D-Partner-green?style=for-the-badge"> |
 | <img src="https://geps.dev/progress/92?color=ff6e96"><br>**92% Accuracy** | <img src="https://geps.dev/progress/95?color=ff6e96"><br>**95% Accuracy** | <img src="https://geps.dev/progress/90?color=ff6e96"><br>**90% Accuracy** | <img src="https://geps.dev/progress/35?color=ff6e96"><br>**35% Flow Boost** |
 | <img src="https://geps.dev/progress/100?color=00d4aa"><br>**10K+ Seeds/Hour** | <img src="https://geps.dev/progress/85?color=ffb347"><br>**85% Less False+** | <img src="https://geps.dev/progress/75?color=a78bfa"><br>**75% Less Manual** | <img src="https://geps.dev/progress/50?color=00d4aa"><br>**50+ Simulations** |
 
-</div>
-
-<div align="center">
-  
 ### 💻 Full-Stack Apps
 
-</div>
-
-<div align="center">
-  
-### � IEEE Publications
-
-<div align="center">
-
-| 🏠 Smart Home AI | 🧬 Biosensors |
-|:---:|:---:|
-| <img src="https://media.giphy.com/media/3o7qDEq2bMbcbPRQ2c/giphy.gif" width="80"> | <img src="https://media.giphy.com/media/l46CdJZzYvz35LQv6/giphy.gif" width="80"> |
-| <img src="https://img.shields.io/badge/IEEE-Published-blue?style=for-the-badge&logo=ieee"> | <img src="https://img.shields.io/badge/IEEE-Presented-green?style=for-the-badge&logo=ieee"> |
-| <img src="https://geps.dev/progress/39?color=ff6e96"><br>**39 Full Text Views** | <img src="https://geps.dev/progress/100?color=00d4aa"><br>**Conference Presented** |
-| [![Paper](https://img.shields.io/badge/IEEE-Read-blue?style=flat-square&logo=ieee)](https://ieeexplore.ieee.org/document/10933179) | [![Conference](https://img.shields.io/badge/IEEE-Details-green?style=flat-square&logo=ieee)](https://ieee-icima.org) |
-
-</div>
-
-<div align="center">
-  
-### 🏆 Awards & Grants
-
-<div align="center">
-
-| 📈 Research Impact | 💼 Business Impact |
-|:---:|:---:|
-| <img src="https://media.giphy.com/media/26BRuo6sLetdllPAQ/giphy.gif" width="80"> | <img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="80"> |
-| <img src="https://img.shields.io/badge/Research-Impact-purple?style=for-the-badge"> | <img src="https://img.shields.io/badge/Business-Impact-orange?style=for-the-badge"> |
-| <img src="https://geps.dev/progress/100?color=ff6e96"><br>**2 IEEE Papers** | <img src="https://geps.dev/progress/100?color=00d4aa"><br>**₹45,900 Revenue** |
-| <img src="https://geps.dev/progress/100?color=ffb347"><br>**$5500 Grant** | <img src="https://geps.dev/progress/100?color=a78bfa"><br>**1000+ Users Served** |
-| <img src="https://geps.dev/progress/39?color=a78bfa"><br>**39+ Citations** | <img src="https://geps.dev/progress/25?color=ff6e96"><br>**25+ Developers Mentored** |
-
-</div>
-
-<div align="center">
-  
-### �💻 Full-Stack Apps
-
-<div align="center">
-
 | ⛏️ TrackMine | 🤖 PRoPilot | 💭 ThinkForge |
-|:---:|:---:|:---:|
+|---|---|---|
 | <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="80"> | <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="80"> | <img src="https://media.giphy.com/media/l46Cy1rHbQ92uuLXa/giphy.gif" width="80"> |
 | <img src="https://img.shields.io/badge/SIH_2024-National-red?style=for-the-badge"> | <img src="https://img.shields.io/badge/AI_Powered-GitHub-blue?style=for-the-badge"> | <img src="https://img.shields.io/badge/AI_Debate-Simulator-purple?style=for-the-badge"> |
 | [![GitHub](https://img.shields.io/badge/GitHub-View-black?style=flat-square&logo=github)](https://github.com/anshc022/TrackMine) | [![Demo](https://img.shields.io/badge/Live-Demo-green?style=flat-square&logo=vercel)](https://p-ro-pilot.vercel.app) | [![DevPost](https://img.shields.io/badge/DevPost-View-blue?style=flat-square&logo=devpost)](https://devpost.com/thinkforge) |
 | <img src="https://geps.dev/progress/100?color=ff6e96"><br>**500+ Workflows** | <img src="https://geps.dev/progress/100?color=00d4aa"><br>**500+ Developers** | <img src="https://geps.dev/progress/95?color=a78bfa"><br>**95% Authentic** |
-
-</div>
 
 ---
 
@@ -193,20 +89,14 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<div align="center">
-
 ### 📚 IEEE Publications
 
-<div align="center">
-
 | 🏠 Smart Home AI | 🧬 Biosensors |
-|:---:|:---:|
+|---|---|
 | <img src="https://media.giphy.com/media/LaVp0AyqR5bGsC5Cbm/giphy.gif" width="80"> | <img src="https://media.giphy.com/media/11KzOet1ElBDz2/giphy.gif" width="80"> |
 | <img src="https://img.shields.io/badge/IEEE_ICSADL-2025-blue?style=for-the-badge"> | <img src="https://img.shields.io/badge/IEEE_ICIMA-2025-green?style=for-the-badge"> |
 | <img src="https://geps.dev/progress/39?color=ff6e96"><br>**39 Full Text Views** | <img src="https://geps.dev/progress/100?color=00d4aa"><br>**Conference Presented** |
 | [![Paper](https://img.shields.io/badge/IEEE-Read-blue?style=flat-square&logo=ieee)](https://ieeexplore.ieee.org/document/10933179) | [![Conference](https://img.shields.io/badge/IEEE-Details-green?style=flat-square&logo=ieee)](https://ieee-icima.org) |
-
-</div>
 
 ### 🏆 Awards & Grants
 
@@ -217,63 +107,26 @@
 
 ### 📈 Impact Metrics
 
-</div>
-
-<table>
-<tr>
-<td width="50%">
-<div align="center">
-<h4>🔬 Research Impact</h4>
-<img src="https://geps.dev/progress/100?color=ff6e96"> **2 IEEE Papers**
-<br>
-<img src="https://geps.dev/progress/100?color=00d4aa"> **$5500 Grant**
-<br>
-<img src="https://geps.dev/progress/100?color=ffb347"> **39+ Citations**
-</div>
-</td>
-<td width="50%">
-<div align="center">
-<h4>💼 Business Impact</h4>
-<img src="https://geps.dev/progress/100?color=a78bfa"> **₹45,900 Revenue**
-<br>
-<img src="https://geps.dev/progress/100?color=fb7185"> **1000+ Users Served**
-<br>
-<img src="https://geps.dev/progress/100?color=34d399"> **25+ Developers Mentored**
-</div>
-</td>
-</tr>
-</table>
+| 🔬 Research Impact | 💼 Business Impact |
+|---|---|
+| <img src="https://media.giphy.com/media/26BRuo6sLetdllPAQ/giphy.gif" width="80"> | <img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="80"> |
+| <img src="https://geps.dev/progress/100?color=ff6e96"><br>**2 IEEE Papers** | <img src="https://geps.dev/progress/100?color=00d4aa"><br>**₹45,900 Revenue** |
+| <img src="https://geps.dev/progress/100?color=ffb347"><br>**$5500 Grant** | <img src="https://geps.dev/progress/100?color=a78bfa"><br>**1000+ Users Served** |
+| <img src="https://geps.dev/progress/39?color=a78bfa"><br>**39+ Citations** | <img src="https://geps.dev/progress/25?color=ff6e96"><br>**25+ Developers Mentored** |
 
 ---
 
 ## 💼 Professional Experience
 
-<div align="left">
-
 ### 🚀 Current Roles
 
-<table>
-<tr>
-<td width="50%">
-
-**🔥 MERN Stack Developer @ Upwork (Remote)** *(May 2024 - Present)*
-- ✅ Developed **10+ enterprise management systems**
-- 📈 **99.9% uptime** with 1K+ daily requests  
-- ⚡ **75% reduction** in deployment time via CI/CD
-- ☁️ **AWS/Vercel** production deployments
-
-</td>
-<td width="50%">
-
-**🤖 AI/ML Project Lead @ Vel Tech R&D** *(2023 - Present)*
-- 🎯 Led **15+ institutional AI/ML projects**
-- 💰 **$5500 IEEE EPICS grant** secured
-- 🎯 **90%+ accuracy** across 8 production deployments
-- 👥 Mentored **25+ junior developers**
-
-</td>
-</tr>
-</table>
+| 🔥 MERN Stack Developer @ Upwork (Remote) | 🤖 AI/ML Project Lead @ Vel Tech R&D |
+|---|---|
+| **May 2024 - Present** | **2023 - Present** |
+| ✅ Developed **10+ enterprise management systems** | 🎯 Led **15+ institutional AI/ML projects** |
+| 📈 **99.9% uptime** with 1K+ daily requests | 💰 **$5500 IEEE EPICS grant** secured |
+| ⚡ **75% reduction** in deployment time via CI/CD | 🎯 **90%+ accuracy** across 8 production deployments |
+| ☁️ **AWS/Vercel** production deployments | 👥 Mentored **25+ junior developers** |
 
 ### 💡 Entrepreneurial Success
 
@@ -282,9 +135,6 @@
 - 📦 **300+ monthly orders**
 - 👥 **1,200+ customers** served
 - 📊 **40% conversion rate** optimization
-
-</div>
-- **40% conversion rate** optimization
 
 ---
 
@@ -303,214 +153,51 @@ graph TD
     F --> G[☁️ Cloud Architecture]
     G --> H[🔄 DevOps & CI/CD]
     H --> E
-    
-    I[🧠 Learning Never Stops] --> J[🚀 Innovation Hub]
-    J --> K[🌍 Impact at Scale]
-    K --> I
-    
-    style A fill:#ff6b6b
-    style E fill:#4ecdc4
-    style I fill:#45b7d1
 ```
 
-### 🔭 What I'm Cooking Right Now:
-- 🤖 **Advanced Computer Vision** models for industrial automation
-- 🌐 **Microservices architecture** that scales like crazy
-- 📱 **Cross-platform mobile apps** with React Native
-- 🔬 **IoT healthcare systems** for remote monitoring
-- 🧠 **LLM integration** in real-world applications
-
-### 🌱 Currently Learning & Exploring:
-- 🧠 **Advanced Deep Learning** architectures (Transformers, GANs)
-- ☁️ **Cloud-native development** patterns & Kubernetes
-- 🔐 **Cybersecurity best practices** & ethical hacking
-- 📊 **Data engineering pipelines** with Apache Spark
-- 🌟 **Web3 & Blockchain** integration possibilities
-
-### 🎮 Fun Side Quests:
-- 🎨 Contributing to **open-source AI tools**
-- 🎓 **Mentoring** the next generation of developers
-- 📝 **Technical writing** & knowledge sharing
-- 🎪 Building **quirky side projects** for fun
+### 🔮 Upcoming Projects
+- 🚀 **AI-Powered Code Review Tool** - Automating code quality checks
+- 🌐 **Decentralized Learning Platform** - Blockchain + AI education
+- 🔧 **Smart IoT Dashboard** - Real-time monitoring & analytics
 
 ---
 
-## ⚙️ Automated Workflows & CI/CD Pipeline
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-<div align="center">
-
-### 🤖 Smart Automation in Action
-
-</div>
+## 🤝 Let's Connect & Collaborate!
 
 <table>
 <tr>
-<td width="33%">
-<div align="center">
-<img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="60">
-<h4>🔄 Profile Auto-Update</h4>
-<img src="https://img.shields.io/badge/Schedule-Every_6h-blue?style=for-the-badge">
-<br><br>
-<img src="https://geps.dev/progress/100?color=ff6e96"> **Real-time Stats**
-<br>
-<img src="https://geps.dev/progress/100?color=00d4aa"> **Blog Integration**
-</div>
-</td>
-<td width="33%">
-<div align="center">
-<img src="https://media.giphy.com/media/l378bu6ZYmzS6nBrW/giphy.gif" width="60">
-<h4>🔍 Code Quality</h4>
-<img src="https://img.shields.io/badge/Security-CodeQL-green?style=for-the-badge">
-<br><br>
-<img src="https://geps.dev/progress/95?color=ff6e96"> **Security Scan**
-<br>
-<img src="https://geps.dev/progress/90?color=a78bfa"> **Quality Gates**
-</div>
-</td>
-<td width="33%">
-<div align="center">
-<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="60">
-<h4>🤖 AI Training</h4>
-<img src="https://img.shields.io/badge/Auto-ML_Pipeline-purple?style=for-the-badge">
-<br><br>
-<img src="https://geps.dev/progress/92?color=ff6e96"> **Model Accuracy**
-<br>
-<img src="https://geps.dev/progress/100?color=00d4aa"> **Automated Tests**
-</div>
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="50%">
-<div align="center">
-<img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="60">
-<h4>🚀 Portfolio Deploy</h4>
-<img src="https://img.shields.io/badge/Deploy-Vercel_+_GitHub_Pages-blue?style=for-the-badge">
-<br><br>
-<img src="https://geps.dev/progress/99?color=ff6e96"> **Uptime**
-<br>
-<img src="https://geps.dev/progress/95?color=00d4aa"> **Performance Score**
-</div>
-</td>
-<td width="50%">
-<div align="center">
-<img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="60">
-<h4>📦 Auto Updates</h4>
-<img src="https://img.shields.io/badge/Weekly-Dependency_Updates-orange?style=for-the-badge">
-<br><br>
-<img src="https://geps.dev/progress/100?color=ff6e96"> **Security Patches**
-<br>
-<img src="https://geps.dev/progress/88?color=ffb347"> **Version Control**
-</div>
-</td>
-</tr>
-</table>
-
-### ⚡ Workflow Status Dashboard
-
-[![Profile Update](https://github.com/anshc022/anshc022/actions/workflows/profile-update.yml/badge.svg)](https://github.com/anshc022/anshc022/actions/workflows/profile-update.yml)
-[![Snake Animation](https://github.com/anshc022/anshc022/actions/workflows/snake.yml/badge.svg)](https://github.com/anshc022/anshc022/actions/workflows/snake.yml)
-[![Code Quality](https://github.com/anshc022/anshc022/actions/workflows/code-quality.yml/badge.svg)](https://github.com/anshc022/anshc022/actions/workflows/code-quality.yml)
-[![AI Training](https://github.com/anshc022/anshc022/actions/workflows/ai-training.yml/badge.svg)](https://github.com/anshc022/anshc022/actions/workflows/ai-training.yml)
-[![Portfolio Deploy](https://github.com/anshc022/anshc022/actions/workflows/deploy-portfolio.yml/badge.svg)](https://github.com/anshc022/anshc022/actions/workflows/deploy-portfolio.yml)
-
----
-
-## 📈 Impact & Metrics That Speak Volumes
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-<table>
-<tr>
-<td width="50%">
-
-### 🏆 Achievement Dashboard
-| Metric | Achievement | Progress |
-|--------|-------------|----------|
-| 🔬 **Research Publications** | 2 IEEE Papers | ████████████████████ |
-| 💰 **Grant Funding** | $5500 IEEE EPICS | ████████████████████ |
-| 👥 **Developers Mentored** | 25+ | ████████████████████ |
-| 🚀 **Enterprise Apps** | 10+ Delivered | ████████████████████ |
+<td>
+  
+**🌟 Open for:**
+- 💼 **Full-time opportunities** in AI/ML or Full-Stack
+- 🤝 **Freelance projects** on complex systems
+- 🔬 **Research collaborations** in AI/ML
+- 💡 **Startup partnerships** in tech innovation
 
 </td>
-<td width="50%">
-
-### 📊 Performance Stats
-| Metric | Achievement | Progress |
-|--------|-------------|----------|
-| 📊 **Daily Users Served** | 1000+ | ████████████████████ |
-| ⚡ **System Uptime** | 99.9% | ████████████████████ |
-| 💼 **Revenue Generated** | ₹45,900 | ████████████████████ |
-| 🎯 **AI Model Accuracy** | 90%+ Average | ████████████████████ |
+<td>
+  
+**📫 Reach out via:**
+- 📧 **Email:** [anshc022@gmail.com](mailto:anshc022@gmail.com)
+- 💼 **LinkedIn:** [pranshu-ansh](https://linkedin.com/in/pranshu-ansh)
+- 🐦 **Twitter:** [@anshc022](https://twitter.com/anshc022)
+- 🌐 **Portfolio:** [anshc022.dev](https://anshc022.dev)
 
 </td>
 </tr>
 </table>
 
-### 🎮 Level Up Statistics
-
-```
-🎓 Education Level: B.Tech Computer Science     ████████████████████ 100%
-💻 Coding Experience: 3+ Years                 ████████████████████ 100%  
-🤖 AI/ML Expertise: Advanced                   ████████████████████ 100%
-🏗️ Full-Stack Skills: Expert                   ████████████████████ 100%
-👥 Leadership: Team Lead                       ████████████████████ 100%
-🚀 Entrepreneurship: Proven Success            ████████████████████ 100%
-```
-
-### 🌟 Quick Flex
-- 💡 **25+ developers** learned from my guidance
-- 🏆 **Multiple hackathon victories** under my belt
-- 📚 **2 IEEE research papers** published
-- 💰 **$5500 grant funding** secured through proposals
-- 🚀 **₹45,900 revenue** generated as entrepreneur
-- 🎯 **99.9% uptime** maintained across all applications
-
 ---
-
-## 🤝 Let's Connect & Build Epic Stuff!
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <div align="center">
 
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="200">
+### 🔥 Profile Stats
+![Profile Views](https://komarev.com/ghpvc/?username=anshc022&color=ff6e96&style=flat-square&label=Profile+Views)
+![GitHub followers](https://img.shields.io/github/followers/anshc022?style=social)
+![GitHub User's stars](https://img.shields.io/github/stars/anshc022?style=social)
 
-### 🚀 Ready to Collaborate?
+**💝 Thanks for visiting! Let's build something amazing together! 🚀**
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=1000&color=FF6E96&center=true&width=500&lines=🔬+AI%2FML+Research;💼+Enterprise+Solutions;🚀+Startup+MVPs;🎓+Tech+Mentoring;🏆+Hackathon+Teams" alt="Collaboration" />
-
-[![Portfolio](https://img.shields.io/badge/🌐_My_Universe-pranshudev.xyz-blue?style=for-the-badge&logo=firefox)](https://pranshudev.xyz)
-[![Email](https://img.shields.io/badge/📧_Let's_Chat-contact%40pranshudev.xyz-red?style=for-the-badge&logo=gmail)](mailto:contact@pranshudev.xyz)
-[![LinkedIn](https://img.shields.io/badge/💼_Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/pranshu-chourasia-615428275)
-[![Calendar](https://img.shields.io/badge/📅_Coffee_Chat-green?style=for-the-badge&logo=calendly)](https://calendly.com/pranshudev)
-
-### 🎯 "From AI Research to Production Apps"
-### 💫 "Building Tomorrow, One Algorithm at a Time"
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev Quote"/>
-
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=anshc022.anshc022&color=ff6e96)
-[![Followers](https://img.shields.io/github/followers/anshc022?style=social&color=ff6e96)](https://github.com/anshc022)
-[![Stars](https://img.shields.io/github/stars/anshc022?style=social&color=ff6e96)](https://github.com/anshc022)
-
-### 🐍 Snake Eating My Contributions
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anshc022/anshc022/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anshc022/anshc022/output/github-contribution-grid-snake.svg">
-  <img alt="Snake Animation" src="https://raw.githubusercontent.com/anshc022/anshc022/output/github-contribution-grid-snake.svg" width="100%">
-</picture>
-
-### 🌊 Thanks for Visiting!
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer" width="100%">
-
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30"> **You're awesome for making it this far!** <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30">
-
-*Last updated: August 2025 - Always evolving!* ⚡
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 </div>
