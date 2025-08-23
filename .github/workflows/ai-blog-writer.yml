@@ -44,7 +44,7 @@ jobs:
       - name: 📦 Install Dependencies
         run: |
           pip install requests google-generativeai python-frontmatter \
-            markdown beautifulsoup4
+            markdown beautifulsoup4 pillow openai
 
       - name: 🤖 Generate Blog Content with Gemini AI
         env:
@@ -148,6 +148,131 @@ jobs:
               )
               return response.text
 
+          def generate_blog_image(title, post_type, content_snippet=""):
+              """Generate a relevant image for the blog post"""
+              try:
+                  # Create image prompt based on blog title and type
+                  image_prompts = {
+                      'tutorial': f"Modern tech tutorial illustration for '{title}', clean minimalist design, programming elements, code snippets, digital art style",
+                      'project-showcase': f"Professional project showcase for '{title}', sleek technology design, modern UI elements, vibrant colors",
+                      'tech-insights': f"Tech insights visualization for '{title}', futuristic design, data analytics, modern technology aesthetic",
+                      'career-tips': f"Professional career growth illustration for '{title}', modern workplace, success journey, motivational design",
+                      'ai-ml-trends': f"AI and machine learning concept art for '{title}', neural networks, data flow, futuristic technology"
+                  }
+                  
+                  prompt = image_prompts.get(post_type, image_prompts['tutorial'])
+                  
+                  # Enhanced keyword extraction from title and content
+                  keywords = []
+                  
+                  # Extract from title
+                  title_words = title.lower().replace(',', ' ').replace('.', ' ').split()
+                  tech_keywords = ['ai', 'ml', 'python', 'javascript', 'react', 'nodejs', 'api', 'database', 'web', 'development', 'programming', 'code', 'tutorial', 'guide']
+                  
+                  for word in title_words:
+                      if len(word) > 3 and word not in ['the', 'and', 'for', 'with', 'your', 'how', 'what', 'why']:
+                          keywords.append(word)
+                  
+                  # Add tech-specific keywords
+                  for keyword in tech_keywords:
+                      if keyword in title.lower() or keyword in content_snippet.lower():
+                          keywords.append(keyword)
+                  
+                  # Limit and format keywords
+                  keywords = list(set(keywords))[:5]  # Remove duplicates and limit
+                  search_terms = '+'.join(keywords + ['technology', 'programming'])
+                  
+                  # Use Unsplash API for relevant stock photos
+                  unsplash_url = f"https://source.unsplash.com/1200x630/?{search_terms}"
+                  
+                  # Download image
+                  img_response = requests.get(unsplash_url, timeout=30)
+                  if img_response.status_code == 200:
+                      timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                      img_filename = f"blog_image_{timestamp}.jpg"
+                      
+                      with open(img_filename, 'wb') as f:
+                          f.write(img_response.content)
+                      
+                      print(f"🖼️ Generated image: {img_filename}")
+                      print(f"🔍 Keywords used: {', '.join(keywords)}")
+                      return img_filename
+                  else:
+                      print("⚠️ Failed to generate image, using fallback")
+                      return None
+                      
+              except Exception as e:
+                  print(f"❌ Image generation error: {e}")
+                  return None
+
+          def upload_image_to_github(img_filename, title):
+              """Upload generated image to GitHub and return URL"""
+              try:
+                  import base64
+                  
+                  # Read image file
+                  with open(img_filename, 'rb') as f:
+                      img_content = f.read()
+                  
+                  # Encode to base64
+                  img_base64 = base64.b64encode(img_content).decode()
+                  
+                  # GitHub API to create file
+                  github_path = f"blog-images/{img_filename}"
+                  github_url = f"https://api.github.com/repos/anshc022/anshc022/contents/{github_path}"
+                  
+                  headers = {
+                      'Authorization': f'token {os.environ["GITHUB_TOKEN"]}',
+                      'Content-Type': 'application/json'
+                  }
+                  
+                  data = {
+                      'message': f'Add blog image for: {title}',
+                      'content': img_base64,
+                      'branch': 'main'
+                  }
+                  
+                  response = requests.put(github_url, headers=headers, json=data)
+                  
+                  if response.status_code == 201:
+                      download_url = response.json()['content']['download_url']
+                      print(f"📤 Image uploaded to GitHub: {download_url}")
+                      return download_url
+                  else:
+                      print(f"❌ Failed to upload image: {response.status_code}")
+                      return None
+                      
+              except Exception as e:
+                  print(f"❌ Image upload error: {e}")
+                  return None
+
+          def add_image_to_content(content, image_url, title):
+              """Add image to blog content"""
+              if not image_url:
+                  return content
+              
+              # Find a good place to insert the image (after title/intro)
+              lines = content.split('\n')
+              image_markdown = f"\n![{title}]({image_url})\n*Generated cover image for this blog post*\n"
+              
+              # Insert after the first heading or front matter
+              insert_index = 0
+              for i, line in enumerate(lines):
+                  if line.startswith('# ') and i > 5:  # Skip front matter
+                      insert_index = i + 1
+                      break
+                  elif line.startswith('## ') and i > 5:
+                      insert_index = i
+                      break
+              
+              if insert_index > 0:
+                  lines.insert(insert_index, image_markdown)
+              else:
+                  # Fallback: add after potential front matter
+                  lines.insert(10, image_markdown)
+              
+              return '\n'.join(lines)
+
           def publish_to_devto(content, post_type="tutorial"):
               """Publish content to Dev.to"""
               # Extract title from content
@@ -226,6 +351,33 @@ jobs:
                   content = generate_blog_content(post_type, topic)
                   print("✅ Content generated successfully!")
                   
+                  # Extract title for image generation
+                  title = "AI Generated Tech Content"
+                  lines = content.split('\n')
+                  for line in lines[:15]:
+                      if line.startswith('# '):
+                          title = line.replace('# ', '').strip()
+                          break
+                      elif 'title:' in line:
+                          title = line.split('title:')[-1].strip().strip('"\'')
+                          break
+                  
+                  # Generate relevant image
+                  print("🖼️ Generating relevant image...")
+                  content_snippet = ' '.join(content.split()[:100])  # First 100 words for context
+                  img_filename = generate_blog_image(title, post_type, content_snippet)
+                  
+                  # Upload image to GitHub and get URL
+                  image_url = None
+                  if img_filename:
+                      print("📤 Uploading image to GitHub...")
+                      image_url = upload_image_to_github(img_filename, title)
+                  
+                  # Add image to content
+                  if image_url:
+                      print("🎨 Adding image to blog content...")
+                      content = add_image_to_content(content, image_url, title)
+                  
                   # Save content locally for review
                   timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
                   filename = f"generated_blog_{timestamp}.md"
@@ -247,11 +399,14 @@ jobs:
                           "",
                           f"- **Type:** {post_type}",
                           f"- **Topic:** {topic if topic else 'Auto-selected'}",
+                          f"- **Title:** {title}",
                           f"- **Published URL:** {article_url}",
+                          f"- **Cover Image:** {'✅ Generated & Included' if image_url else '❌ Not generated'}",
                           f"- **Generated at:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')}",
                           "",
                           "### 📊 Stats",
                           f"- Content length: ~{len(content.split())} words",
+                          f"- Image URL: {image_url if image_url else 'None'}",
                           "- Generated by: Gemini AI",
                           "- Auto-published to Dev.to"
                       ]
