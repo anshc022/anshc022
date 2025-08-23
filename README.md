@@ -1,4 +1,12 @@
-[![](https://visitcount.itsvg.in/## 🖥️ My Battle Station Arsenal
+[![](https://visitcount.itsvg.in/api?id=anshc0## 🧠 Currently Upgrading My Brain![OpenCV](https://img.shields.io/badge/-OpenCV_📷-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/-TensorFlow_🧠-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![LLAMA 2](https://img.shields.io/badge/-LLAMA_2_🦙-4A90E2?style=for-the-badge&logo=meta&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/-MediaPipe_🎯-4285F4?style=for-the-badge&logo=google&logoColor=white)h
+- � **Advanced Computer Vision** *(Teaching machines to see better than humans)*
+- 🚀 **Large Language Models** *(Because ChatGPT needs competition)*
+- ⚡ **Edge AI Deployment** *(Making Raspberry Pis smarter than smartphones)*
+- 🏗️ **MLOps & AI Pipeline Architecture** *(Automating the automation)*
+- 🧬 **Biosensor Integration** *(Mixing biology with bytes)* My Battle Station Arsenal
 *aka "The Hardware That Powers My Digital Dreams"*
 
 ### 💻 Main Development Machine
@@ -10,7 +18,7 @@
 ### 🔧 IoT Development Hub
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-4_Model_B_🍓-A22846?style=for-the-badge&logo=raspberry-pi&logoColor=white)
 
-**Fun Fact:** This setup lets me code on my laptop, train AI models on the Jetson Nano, and control smart devices with the Pi - it's like having a mini tech empire on my desk! *(And yes, they all have cool names)*nshc022&label=Profile%20Views&color=1&icon=5&pretty=true)](https://visitcount.itsvg.in)
+**Fun Fact:** This setup lets me code on my laptop, train AI models on the Jetson Nano, and control smart devices with the Pi - it's like having a mini tech empire on my desk! *(And yes, they all have cool names)*=Profile%20Views&color=1&icon=5&pretty=true)](https://visitcount.itsvg.in)
 
 <div align="center">
   <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
