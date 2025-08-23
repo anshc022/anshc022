@@ -92,7 +92,7 @@
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ### 📊 Language Stats
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=anshc022&theme=radical&hide_border=true" alt="WakaTime Stats" width="500">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anshc022&theme=radical&hide_border=true&layout=compact&langs_count=8" alt="Top Languages" width="500">
 
 ### 🎯 Skills Radar Chart
 ```
@@ -103,8 +103,17 @@
      Leadership ███████████████████  88%
 ```
 
-### 🔥 Coding Activity Heatmap
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anshc022&theme=radical" alt="Activity Heatmap" width="100%">
+### 🔥 GitHub Performance
+<table>
+<tr>
+<td>
+<img src="https://github-readme-stats.vercel.app/api?username=anshc022&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" width="100%">
+</td>
+<td>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=anshc022&theme=radical&hide_border=true" alt="GitHub Streak" width="100%">
+</td>
+</tr>
+</table>
 
 ---
 
@@ -132,18 +141,22 @@
 [![Pranshu's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=anshc022&theme=react-dark&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ### ⚡ GitHub Metrics
-<img src="https://metrics.lecoq.io/anshc022?template=classic&config.timezone=Asia%2FKolkata" alt="Metrics" width="100%">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anshc022&theme=radical" alt="GitHub Profile Summary" width="100%">
 
-### 🔥 Streak Stats
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=anshc022&theme=dark&hide_border=true" alt="anshc022" width="100%">
+### 🔥 More GitHub Stats
+<table>
+<tr>
+<td><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=anshc022&theme=radical" alt="Top Languages by Repo" width="100%"></td>
+<td><img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=anshc022&theme=radical" alt="Most Used Languages" width="100%"></td>
+</tr>
+<tr>
+<td><img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=anshc022&theme=radical" alt="GitHub Stats" width="100%"></td>
+<td><img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=anshc022&theme=radical&utcOffset=5.5" alt="Commits by Time" width="100%"></td>
+</tr>
+</table>
 
-### 💻 WakaTime Stats
-<!--START_SECTION:waka-->
-[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=anshc022&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
-<!--END_SECTION:waka-->
-
-### 🎵 Spotify Now Playing
-[![Spotify](https://github-readme-remake.vercel.app/api/spotify)](https://open.spotify.com/user/anshc022)
+### 💻 Coding Activity
+<img src="https://github-readme-activity-graph.vercel.app/api/graph?username=anshc022&theme=react-dark&hide_border=true&area=true&custom_title=Pranshu's%20Contribution%20Graph" alt="Activity Graph" width="100%">
 
 ---
 
@@ -576,7 +589,7 @@ Whether you're looking for:
 
 ### 🎨 Dynamic Quote
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=radical" alt="Random Dev Quote"/>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote"/>
 </div>
 
 ### 🎮 Gaming Elements
@@ -592,8 +605,23 @@ Whether you're looking for:
 - 🎪 I debug with `console.log()` and I'm proud of it!
 - 🍕 Pizza is my primary source of energy
 - 🌙 Most productive coding hours: 11 PM - 3 AM
-- 🎧 Can't code without music (check my Spotify above!)
+- 🎧 Can't code without music
 - 🤖 I dream in Python and think in JavaScript
+
+### 📈 Weekly Development Breakdown
+```text
+Python       12 hrs 30 mins  ████████████████████████▓   85.2%
+JavaScript   1 hr 45 mins    ███▓░░░░░░░░░░░░░░░░░░░░░   12.1%
+TypeScript   15 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░    1.8%
+CSS          8 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░    0.9%
+```
+
+### 🎵 Currently Jamming To
+🎶 *"Coding beats and caffeine dreams..."* 🎶
+- 🎧 **Lofi Hip Hop** - For deep focus sessions
+- 🎸 **Electronic** - For debugging marathons  
+- 🎼 **Instrumental** - For algorithm thinking
+- 🎤 **Podcasts** - For learning while coding
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
