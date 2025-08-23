@@ -1,0 +1,201 @@
+name: Profile Repository Validation
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  validate-profile:
+    name: Validate Profile Repository
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Validate README.md
+        run: |
+          echo "📝 Validating README.md..."
+          
+          if [ ! -f README.md ]; then
+            echo "❌ README.md not found!"
+            exit 1
+          fi
+          
+          # Check README file size
+          README_SIZE=$(wc -c < README.md)
+          echo "📊 README.md size: $README_SIZE bytes"
+          
+          if [ $README_SIZE -lt 100 ]; then
+            echo "⚠️ README.md seems too small"
+          elif [ $README_SIZE -gt 50000 ]; then
+            echo "⚠️ README.md is quite large (>50KB)"
+          else
+            echo "✅ README.md size is appropriate"
+          fi
+          
+      - name: Check for broken links
+        run: |
+          echo "🔗 Checking for broken markdown links..."
+          
+          # Extract URLs from markdown
+          grep -oP '\[.*?\]\(\K[^)]*' README.md | while read url; do
+            if [[ $url =~ ^https?:// ]]; then
+              echo "Checking: $url"
+              if curl -s --head "$url" | head -n 1 | grep -q "200 OK"; then
+                echo "✅ $url - OK"
+              else
+                echo "⚠️ $url - May be unreachable"
+              fi
+            fi
+          done || echo "No external links found or all links checked"
+          
+      - name: Validate GitHub Actions workflows
+        run: |
+          echo "⚙️ Validating GitHub Actions workflows..."
+          
+          if [ -d .github/workflows ]; then
+            WORKFLOW_COUNT=$(find .github/workflows -name "*.yml" -o -name "*.yaml" | wc -l)
+            echo "📊 Found $WORKFLOW_COUNT workflow files"
+            
+            for workflow in .github/workflows/*.{yml,yaml}; do
+              if [ -f "$workflow" ]; then
+                echo "✅ Found: $(basename "$workflow")"
+                
+                # Basic YAML validation using yamllint if available
+                if command -v yamllint &> /dev/null; then
+                  yamllint "$workflow" || echo "⚠️ YAML validation warnings for $(basename "$workflow")"
+                else
+                  echo "ℹ️ YAML validation skipped (yamllint not available)"
+                fi
+              fi
+            done
+          else
+            echo "📁 No .github/workflows directory found"
+          fi
+          
+      - name: Check repository structure
+        run: |
+          echo "📁 Analyzing repository structure..."
+          
+          # Check for common files
+          files_to_check=("LICENSE" "LICENSE.md" ".gitignore")
+          
+          for file in "${files_to_check[@]}"; do
+            if [ -f "$file" ]; then
+              echo "✅ Found: $file"
+            else
+              echo "ℹ️ Optional file not found: $file"
+            fi
+          done
+          
+          # Check directory structure
+          echo ""
+          echo "📊 Repository structure:"
+          tree -L 2 2>/dev/null || find . -maxdepth 2 -type d | sort
+          
+      - name: Generate repository report
+        run: |
+          echo "📊 Generating repository health report..."
+          
+          cat > repository-report.md << 'EOF'
+          # 📊 Repository Health Report
+          
+          **Generated on:** $(date)
+          **Repository:** ${{ github.repository }}
+          **Branch:** ${{ github.ref_name }}
+          
+          ## 📈 Statistics
+          - **Total files:** $(find . -type f | wc -l)
+          - **README size:** $(wc -c < README.md) bytes
+          - **Workflows:** $(find .github/workflows -name "*.yml" -o -name "*.yaml" 2>/dev/null | wc -l)
+          - **Last commit:** $(git log -1 --format="%h - %s (%cr)")
+          
+          ## ✅ Health Checks
+          - README.md exists and has content
+          - GitHub Actions workflows are present
+          - Repository structure is organized
+          
+          ## 🚀 Recommendations
+          - Keep README updated with latest achievements
+          - Monitor workflow execution status
+          - Consider adding more automation workflows
+          
+          ---
+          *Report generated automatically by GitHub Actions*
+          EOF
+          
+          echo "Report generated successfully!"
+          
+      - name: Upload repository report
+        uses: actions/upload-artifact@v3
+        with:
+          name: repository-health-report
+          path: repository-report.md
+          
+  check-profile-completeness:
+    name: Check Profile Completeness
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Analyze profile sections
+        run: |
+          echo "🔍 Analyzing profile completeness..."
+          
+          # Check for essential sections
+          sections=(
+            "About Me" 
+            "Tech" 
+            "Projects" 
+            "Experience" 
+            "Contact"
+            "GitHub Stats"
+          )
+          
+          missing_sections=()
+          
+          for section in "${sections[@]}"; do
+            if grep -qi "$section" README.md; then
+              echo "✅ Found: $section section"
+            else
+              echo "⚠️ Missing: $section section"
+              missing_sections+=("$section")
+            fi
+          done
+          
+          if [ ${#missing_sections[@]} -eq 0 ]; then
+            echo "🎉 Profile is complete with all essential sections!"
+          else
+            echo "📝 Consider adding these sections: ${missing_sections[*]}"
+          fi
+          
+      - name: Check for GitHub profile features
+        run: |
+          echo "🎨 Checking for GitHub profile features..."
+          
+          features=(
+            "shields.io" 
+            "github-readme-stats" 
+            "typing-svg"
+            "profile-trophy"
+            "streak-stats"
+          )
+          
+          found_features=()
+          
+          for feature in "${features[@]}"; do
+            if grep -q "$feature" README.md; then
+              echo "✅ Using: $feature"
+              found_features+=("$feature")
+            fi
+          done
+          
+          echo "📊 Profile uses ${#found_features[@]} out of ${#features[@]} popular features"
+          
+          if [ ${#found_features[@]} -ge 3 ]; then
+            echo "🌟 Great! Your profile uses many engaging features"
+          else
+            echo "💡 Consider adding more visual elements to make your profile stand out"
+          fi

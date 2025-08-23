@@ -97,13 +97,54 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         
+      - name: Check for source code
+        id: check-code
+        run: |
+          # Check if there are Python files
+          PYTHON_FILES=$(find . -name "*.py" -not -path "./.git/*" | wc -l)
+          # Check if there are JavaScript/TypeScript files
+          JS_FILES=$(find . -name "*.js" -o -name "*.ts" -o -name "*.jsx" -o -name "*.tsx" -not -path "./.git/*" -not -path "./node_modules/*" | wc -l)
+          
+          echo "Found $PYTHON_FILES Python files"
+          echo "Found $JS_FILES JavaScript/TypeScript files"
+          
+          if [ $PYTHON_FILES -gt 0 ] || [ $JS_FILES -gt 0 ]; then
+            echo "has_code=true" >> $GITHUB_OUTPUT
+            
+            # Determine languages to analyze
+            LANGUAGES=""
+            if [ $PYTHON_FILES -gt 0 ]; then
+              LANGUAGES="python"
+            fi
+            if [ $JS_FILES -gt 0 ]; then
+              if [ -n "$LANGUAGES" ]; then
+                LANGUAGES="$LANGUAGES,javascript"
+              else
+                LANGUAGES="javascript"
+              fi
+            fi
+            echo "languages=$LANGUAGES" >> $GITHUB_OUTPUT
+          else
+            echo "has_code=false" >> $GITHUB_OUTPUT
+            echo "⚠️ No source code files found for CodeQL analysis"
+          fi
+        
       - name: Initialize CodeQL
+        if: steps.check-code.outputs.has_code == 'true'
         uses: github/codeql-action/init@v2
         with:
-          languages: python, javascript
+          languages: ${{ steps.check-code.outputs.languages }}
           
       - name: Autobuild
+        if: steps.check-code.outputs.has_code == 'true'
         uses: github/codeql-action/autobuild@v2
         
       - name: Perform CodeQL Analysis
+        if: steps.check-code.outputs.has_code == 'true'
         uses: github/codeql-action/analyze@v2
+        
+      - name: Skip CodeQL Analysis
+        if: steps.check-code.outputs.has_code == 'false'
+        run: |
+          echo "✅ CodeQL analysis skipped - no source code files found"
+          echo "This is normal for profile/documentation repositories"

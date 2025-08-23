@@ -6,11 +6,15 @@ on:
       - 'models/**'
       - 'datasets/**'
       - 'training/**'
+      - 'ml/**'
+      - 'ai/**'
   pull_request:
     paths:
       - 'models/**'
       - 'datasets/**'
-      - 'training/**'
+      - 'training/**' 
+      - 'ml/**'
+      - 'ai/**'
   workflow_dispatch:
     inputs:
       model_type:
@@ -24,9 +28,45 @@ on:
           - custom
 
 jobs:
+  check-ml-files:
+    name: Check for ML/AI Files
+    runs-on: ubuntu-latest
+    outputs:
+      has_ml_files: ${{ steps.check.outputs.has_ml_files }}
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Check for ML/AI directories and files
+        id: check
+        run: |
+          ML_DIRS=("models" "datasets" "training" "ml" "ai" "notebooks")
+          ML_FILES_FOUND=false
+          
+          for dir in "${ML_DIRS[@]}"; do
+            if [ -d "$dir" ]; then
+              echo "✅ Found ML directory: $dir"
+              ML_FILES_FOUND=true
+            fi
+          done
+          
+          # Check for common ML file patterns
+          if find . -name "*.ipynb" -o -name "*model*.py" -o -name "*train*.py" -o -name "*.pkl" -o -name "*.h5" | grep -q .; then
+            echo "✅ Found ML-related files"
+            ML_FILES_FOUND=true
+          fi
+          
+          if [ "$ML_FILES_FOUND" = true ]; then
+            echo "has_ml_files=true" >> $GITHUB_OUTPUT
+            echo "🤖 ML/AI files detected - proceeding with training workflows"
+          else
+            echo "has_ml_files=false" >> $GITHUB_OUTPUT
+            echo "ℹ️ No ML/AI files detected - skipping training workflows"
+          fi
   validate-data:
     name: Validate Training Data
     runs-on: ubuntu-latest
+    needs: check-ml-files
+    if: needs.check-ml-files.outputs.has_ml_files == 'true'
     steps:
       - uses: actions/checkout@v4
       
@@ -63,7 +103,8 @@ jobs:
   model-training:
     name: Train ML Models
     runs-on: ubuntu-latest
-    needs: validate-data
+    needs: [check-ml-files, validate-data]
+    if: needs.check-ml-files.outputs.has_ml_files == 'true'
     strategy:
       matrix:
         model: [computer_vision, nlp, traditional_ml]
@@ -138,7 +179,8 @@ jobs:
   model-evaluation:
     name: Model Evaluation & Comparison
     runs-on: ubuntu-latest
-    needs: model-training
+    needs: [check-ml-files, model-training]
+    if: needs.check-ml-files.outputs.has_ml_files == 'true'
     steps:
       - uses: actions/checkout@v4
       
