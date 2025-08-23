@@ -2,10 +2,19 @@
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=36BCF7&center=false&vCenter=true&width=800&lines=AI%2FML+Engineer+%F0%9F%A4%96;Full-Stack+Developer+%F0%9F%9A%80;IEEE+Researcher+%F0%9F%94%AC;Smart+India+Hackathon+Participant+%F0%9F%8F%86;Open+Source+Contributor+%E2%9C%A8;Building+the+Future+%F0%9F%8C%9F" alt="Typing SVG" />
 
+<!-- Animated Wave -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=header" width="100%">
+
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-pranshudev.xyz-blue?style=for-the-badge&logo=firefox&logoColor=white)](https://pranshudev.xyz)
 [![Email](https://img.shields.io/badge/📧_Email-contact%40pranshudev.xyz-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@pranshudev.xyz)
 [![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-pranshu--chourasia-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pranshu-chourasia-615428275)
 [![GitHub](https://img.shields.io/badge/🚀_GitHub-anshc022-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anshc022)
+
+<!-- Profile Views Counter -->
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=anshc022&label=Profile%20views&color=0e75b6&style=flat" alt="anshc022" />
+  <img src="https://img.shields.io/github/followers/anshc022?label=Followers&style=social" alt="GitHub Badge">
+</p>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
@@ -82,6 +91,21 @@
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
+### 📊 Language Stats
+<img src="https://github-readme-stats.vercel.app/api/wakatime?username=anshc022&theme=radical&hide_border=true" alt="WakaTime Stats" width="500">
+
+### 🎯 Skills Radar Chart
+```
+          AI/ML ████████████████████ 95%
+     Full-Stack ████████████████████ 90%
+    DevOps/Cloud ██████████████████   85%
+       Research ████████████████████ 95%
+     Leadership ███████████████████  88%
+```
+
+### 🔥 Coding Activity Heatmap
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anshc022&theme=radical" alt="Activity Heatmap" width="100%">
+
 ---
 
 ## 📊 GitHub Analytics & Battle Stats
@@ -106,6 +130,20 @@
 
 ### 📈 Contribution Graph
 [![Pranshu's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=anshc022&theme=react-dark&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+### ⚡ GitHub Metrics
+<img src="https://metrics.lecoq.io/anshc022?template=classic&config.timezone=Asia%2FKolkata" alt="Metrics" width="100%">
+
+### 🔥 Streak Stats
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=anshc022&theme=dark&hide_border=true" alt="anshc022" width="100%">
+
+### 💻 WakaTime Stats
+<!--START_SECTION:waka-->
+[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=anshc022&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+<!--END_SECTION:waka-->
+
+### 🎵 Spotify Now Playing
+[![Spotify](https://github-readme-remake.vercel.app/api/spotify)](https://open.spotify.com/user/anshc022)
 
 ---
 
@@ -515,7 +553,47 @@ Whether you're looking for:
 
 ### 🐍 Watch My Contributions Get Devoured!
 
-<img src="https://github.com/anshc022/anshc022/blob/output/github-contribution-grid-snake-dark.svg" alt="Snake eating my contributions" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anshc022/anshc022/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anshc022/anshc022/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/anshc022/anshc022/output/github-contribution-grid-snake.svg">
+</picture>
+
+<!-- Alternative snake animation if above doesn't work -->
+<div align="center">
+  <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</div>
+
+### 🌊 Wave Footer
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer" width="100%">
+
+### 🎭 Fun Animations
+<div align="center">
+  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+  <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="100"/>
+  <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="100"/>
+</div>
+
+### 🎨 Dynamic Quote
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=radical" alt="Random Dev Quote"/>
+</div>
+
+### 🎮 Gaming Elements
+```
+🎯 Current Level: Senior Developer
+⭐ Experience Points: 15,420 XP
+🏆 Achievements Unlocked: 47/100
+🔥 Streak: 150+ days coding
+💡 Side Quests Completed: 25+
+```
+
+### 🌟 Random Fun Facts
+- 🎪 I debug with `console.log()` and I'm proud of it!
+- 🍕 Pizza is my primary source of energy
+- 🌙 Most productive coding hours: 11 PM - 3 AM
+- 🎧 Can't code without music (check my Spotify above!)
+- 🤖 I dream in Python and think in JavaScript
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
@@ -523,3 +601,6 @@ Whether you're looking for:
 
 <sub>💙 **Made with lots of ☕ and late-night coding sessions**</sub>  
 <sub>🚀 **Last updated: August 2025 - Always evolving!**</sub>
+
+### 🎊 Thanks for Visiting!
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="40"> **You're awesome for making it this far!** <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="40">
