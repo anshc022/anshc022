@@ -1,0 +1,36 @@
+name: 📝 Latest Dev.to Blog Posts
+
+on:
+  schedule:
+    # Runs every day at 00:00 UTC (5:30 AM IST)
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-readme-with-blog:
+    name: Update README with Dev.to posts
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🛎️ Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 📝 Update README with Dev.to blog posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          comment_tag_name: "DEVTO"
+          feed_list: "https://dev.to/feed/anshc022"
+          max_post_count: 5
+          template: "- 📝 [$title]($url) - $description"
+          commit_message: "📝 Updated Dev.to blog posts"
+          committer_username: "anshc022"
+          committer_email: "anshc022@gmail.com"
+
+      - name: 🚀 Push changes
+        run: |
+          git config --local user.email "anshc022@gmail.com"
+          git config --local user.name "anshc022"
+          git add .
+          git diff --staged --quiet || git commit -m "📝 Auto-update: Latest Dev.to blog posts"
+          git push

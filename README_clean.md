@@ -1,42 +1,17 @@
-# 👋 Hello World! I'm Pranshu Chourasia (Ansh)
+# 👋 Hello World! I'm Pranshu Ansh
 
 <p align="left">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=FF6E96&width=800&lines=AI%2FML+Engineer+%26+Full-Stack+Developer;5%2B+Years+Coding+%7C+IEEE+Researcher;Building+Smart+Systems+%26+Scalable+Apps;Always+Learning+%2C+Always+Building!" alt="Typing SVG">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=FF6E96&width=600&lines=AI%2FML+Engineer+%26+Full-Stack+Developer;5%2B+Years+Coding+%7C+IEEE+Researcher;Building+Smart+Systems+%26+Scalable+Apps;Always+Learning+%2C+Always+Building!" alt="Typing SVG">
 </p>
-
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-pranshudev.xyz-ff6e96?style=for-the-badge&logo=safari&logoColor=white)](https://www.pranshudev.xyz/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pranshu-ansh)
-[![Dev.to](https://img.shields.io/badge/Dev.to-Blog-black?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/anshc022)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anshc022@gmail.com)
 
 ---
 
 ## 🚀 About Me
 
-<table>
-<tr>
-<td width="60%">
-
 🎯 **AI/ML Engineer** passionate about creating intelligent systems that solve real-world problems  
 💻 **Full-Stack Developer** with 5+ years of experience building scalable applications  
 🏆 **IEEE Researcher** with published papers and $5500+ in research grants  
 🌟 **Entrepreneur** who generated ₹45,900 revenue in 3 months  
-
-🔥 **Currently Building:**
-- 🤖 Smart AI systems for real-world impact
-- 🚀 Scalable full-stack applications
-- 📊 Data-driven solutions for businesses
-- 🎯 Open-source tools for developers
-- ✍️ AI-powered content automation (auto-blogs with Gemini AI)
-
-</td>
-<td width="40%">
-
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%" alt="Coding GIF">
-
-</td>
-</tr>
-</table>
 
 ## 🛠️ Tech Arsenal
 
@@ -66,26 +41,8 @@
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=anshc022&theme=radical&hide_border=true&background=0d1117&stroke=ff6e96&ring=ff6e96&fire=ff6e96&currStreakLabel=ff6e96)](https://git.io/streak-stats)
 
-### 🏆 GitHub Achievements
-
-<p align="left">
-<img src="https://github-profile-trophy.vercel.app/?username=anshc022&theme=onedark&no-frame=true&no-bg=true&margin-w=4" alt="Trophies">
-</p>
-
-**🎯 Achievement Highlights:**
-- 🌟 **Active Contributor** - Consistent coding activity
-- 💻 **Multi-Language Developer** - Proficient in 10+ languages  
-- 🚀 **Project Creator** - Multiple successful repositories
-- 📈 **Growing Profile** - Increasing followers and stars
-- 🤝 **Open Source Contributor** - Community involvement
-
-### 🎯 GitHub Stats
-<table>
-<tr>
-<td><img src="https://github-readme-stats.vercel.app/api?username=anshc022&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117" alt="GitHub Stats" width="100%"></td>
-<td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anshc022&layout=compact&theme=radical&hide_border=true&bg_color=0d1117" alt="Top Languages" width="100%"></td>
-</tr>
-</table>
+### 🏆 GitHub Trophies
+<img src="https://github-profile-trophy.vercel.app/?username=anshc022&theme=radical&no-frame=true&no-bg=false&margin-w=4&margin-h=1&column=7" alt="GitHub Trophies" width="100%">
 
 ### 📈 GitHub Summary
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anshc022&theme=radical" alt="GitHub Profile Summary" width="100%">
@@ -143,46 +100,10 @@
 
 ### 🏆 Awards & Grants
 
-<table>
-<tr>
-<td width="25%" align="center">
-<img src="https://media.giphy.com/media/26BRuo6sLetdllPAQ/giphy.gif" width="60"><br>
-<h4>💰 IEEE EPICS Grant</h4>
-<img src="https://img.shields.io/badge/Amount-$5500-gold?style=for-the-badge&logo=ieee"><br>
-<img src="https://geps.dev/progress/100?color=ffd700"><br>
-<b>Fully Funded Project</b>
-</td>
-<td width="25%" align="center">
-<img src="https://media.giphy.com/media/3oriO7A7bt1wsEP4cw/giphy.gif" width="60"><br>
-<h4>🥇 SIH 2024 Winner</h4>
-<img src="https://img.shields.io/badge/Position-1st_Place-red?style=for-the-badge"><br>
-<img src="https://geps.dev/progress/100?color=ff4444"><br>
-<b>National Level Victory</b>
-</td>
-<td width="25%" align="center">
-<img src="https://media.giphy.com/media/26tknCqiJrBQG6bxC/giphy.gif" width="60"><br>
-<h4>🏆 College Hackathon</h4>
-<img src="https://img.shields.io/badge/Achievement-Champion-blue?style=for-the-badge"><br>
-<img src="https://geps.dev/progress/100?color=4285f4"><br>
-<b>Multiple Wins</b>
-</td>
-<td width="25%" align="center">
-<img src="https://media.giphy.com/media/3o7qDEq2bMbcbPRQ2c/giphy.gif" width="60"><br>
-<h4>💡 Innovation Awards</h4>
-<img src="https://img.shields.io/badge/Category-Ideation-purple?style=for-the-badge"><br>
-<img src="https://geps.dev/progress/100?color=9c27b0"><br>
-<b>Creative Excellence</b>
-</td>
-</tr>
-</table>
-
-### 🎖️ Recognition Timeline
-
-🏅 **2024** - Smart India Hackathon National Winner  
-🏅 **2024** - IEEE EPICS $5500 Grant Recipient  
-🏅 **2023** - College Innovation Competition Champion  
-🏅 **2023** - Best Full-Stack Project Award  
-🏅 **2022** - Outstanding Research Paper IEEE ICSADL
+<img src="https://img.shields.io/badge/💰_IEEE_EPICS-$5500-gold?style=for-the-badge&logo=ieee">
+<img src="https://img.shields.io/badge/🥇_SIH_2024-Winner-red?style=for-the-badge">
+<img src="https://img.shields.io/badge/🥇_College_Hackathon-1st_Prize-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/🥇_Ideation_Comp-1st_Prize-purple?style=for-the-badge">
 
 ### 📈 Impact Metrics
 
@@ -241,15 +162,6 @@ graph TD
 
 ---
 
-## 📝 Latest Dev.to Blog Posts
-
-<!-- DEVTO:START -->
-<!-- DEVTO:END -->
-
-*📖 Want to read more? Check out my [Dev.to profile](https://dev.to/anshc022) for all articles!*
-
----
-
 ## 🤝 Let's Connect & Collaborate!
 
 <table>
@@ -268,9 +180,8 @@ graph TD
 **📫 Reach out via:**
 - 📧 **Email:** [anshc022@gmail.com](mailto:anshc022@gmail.com)
 - 💼 **LinkedIn:** [pranshu-ansh](https://linkedin.com/in/pranshu-ansh)
-- � **Dev.to Blog:** [anshc022](https://dev.to/anshc022)
-- �🐦 **Twitter:** [@anshc022](https://twitter.com/anshc022)
-- 🌐 **Portfolio:** [pranshudev.xyz](https://www.pranshudev.xyz/)
+- 🐦 **Twitter:** [@anshc022](https://twitter.com/anshc022)
+- 🌐 **Portfolio:** [anshc022.dev](https://anshc022.dev)
 
 </td>
 </tr>

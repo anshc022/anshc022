@@ -1,0 +1,309 @@
+name: 🤖 AI Auto Blog Writer
+
+on:
+  schedule:
+    # Runs every Monday at 10:00 AM UTC (3:30 PM IST)
+    - cron: '0 10 * * 1'
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: 'Specific topic to write about (optional)'
+        required: false
+        type: string
+      post_type:
+        description: 'Type of post to generate'
+        required: true
+        default: 'tutorial'
+        type: choice
+        options:
+        - tutorial
+        - project-showcase
+        - tech-insights
+        - career-tips
+        - ai-ml-trends
+
+jobs:
+  generate-and-publish-blog:
+    name: AI Blog Content Generator
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🛎️ Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: 📦 Install Dependencies
+        run: |
+          pip install requests google-generativeai python-frontmatter markdown beautifulsoup4
+
+      - name: 🤖 Generate Blog Content with Gemini AI
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cat > ai_blog_generator.py << 'EOF'
+          import os
+          import json
+          import requests
+          import google.generativeai as genai
+          from datetime import datetime, timedelta
+          import random
+
+          # Configure Gemini AI
+          genai.configure(api_key=os.environ['GEMINI_API_KEY'])
+          model = genai.GenerativeModel('gemini-1.5-flash')
+
+          def get_github_activity():
+              """Fetch recent GitHub activity for content inspiration"""
+              headers = {'Authorization': f'token {os.environ["GITHUB_TOKEN"]}'}
+              
+              # Get recent commits
+              commits_url = 'https://api.github.com/repos/anshc022/anshc022/commits?per_page=10'
+              commits_response = requests.get(commits_url, headers=headers)
+              commits = commits_response.json()[:5] if commits_response.status_code == 200 else []
+              
+              # Get repositories
+              repos_url = 'https://api.github.com/users/anshc022/repos?sort=updated&per_page=10'
+              repos_response = requests.get(repos_url, headers=headers)
+              repos = repos_response.json()[:5] if repos_response.status_code == 200 else []
+              
+              return {
+                  'recent_commits': [c['commit']['message'] for c in commits],
+                  'active_repos': [{'name': r['name'], 'description': r['description'], 'language': r['language']} for r in repos]
+              }
+
+          def generate_blog_content(post_type, topic=None):
+              """Generate blog content using Gemini AI"""
+              github_data = get_github_activity()
+              
+              # Content templates based on post type
+              prompts = {
+                  'tutorial': f"""
+                  Write a comprehensive technical tutorial blog post for Dev.to as Pranshu Chourasia (Ansh), an AI/ML Engineer and Full-Stack Developer.
+                  
+                  Context:
+                  - Recent GitHub activity: {github_data['recent_commits'][:3]}
+                  - Active projects: {github_data['active_repos'][:3]}
+                  - Topic focus: {topic if topic else 'Latest tech trends in AI/ML or Full-Stack development'}
+                  
+                  Requirements:
+                  - Write as a knowledgeable engineer sharing practical insights
+                  - Include code examples and step-by-step instructions
+                  - Make it beginner-friendly but technically accurate
+                  - Add practical tips and best practices
+                  - Include relevant hashtags for Dev.to
+                  - Write in a conversational, engaging tone
+                  - Length: 1200-1500 words
+                  
+                  Structure:
+                  1. Engaging introduction with a hook
+                  2. Problem statement or learning objective
+                  3. Step-by-step tutorial with code examples
+                  4. Common pitfalls and how to avoid them
+                  5. Conclusion with key takeaways
+                  6. Call to action for engagement
+                  
+                  Format as Dev.to markdown with proper front matter.
+                  """,
+                  
+                  'project-showcase': f"""
+                  Write a project showcase blog post for Dev.to as Pranshu Chourasia (Ansh).
+                  
+                  Context:
+                  - Your recent projects: {github_data['active_repos'][:3]}
+                  - Your background: AI/ML Engineer, IEEE Researcher, $5500+ grants, Full-Stack Developer
+                  - Focus: {topic if topic else 'One of your AI/ML or Full-Stack projects'}
+                  
+                  Requirements:
+                  - Showcase a specific project with technical details
+                  - Explain the problem it solves
+                  - Describe the tech stack and architecture
+                  - Share challenges faced and solutions found
+                  - Include lessons learned
+                  - Add screenshots or diagrams descriptions
+                  - Length: 1000-1300 words
+                  
+                  Make it inspiring for other developers while being technically informative.
+                  """,
+                  
+                  'tech-insights': f"""
+                  Write a tech insights blog post for Dev.to as Pranshu Chourasia (Ansh).
+                  
+                  Context:
+                  - Your expertise: AI/ML Engineering, Full-Stack Development, IEEE Research
+                  - Current tech landscape in AI/ML and web development
+                  - Topic: {topic if topic else 'Emerging trends in AI/ML or development practices'}
+                  
+                  Requirements:
+                  - Share expert insights on current tech trends
+                  - Provide practical advice for developers
+                  - Include real-world examples and use cases
+                  - Discuss future implications
+                  - Add actionable recommendations
+                  - Length: 900-1200 words
+                  
+                  Write with authority while being accessible to developers at all levels.
+                  """,
+                  
+                  'career-tips': f"""
+                  Write a career advice blog post for Dev.to as Pranshu Chourasia (Ansh).
+                  
+                  Context:
+                  - Your journey: 5+ years coding, IEEE Researcher, Entrepreneur (₹45,900 revenue)
+                  - Your achievements: SIH 2024 Winner, Multiple hackathon wins, Published papers
+                  - Focus: {topic if topic else 'Career growth in tech, AI/ML, or development'}
+                  
+                  Requirements:
+                  - Share personal career insights and lessons learned
+                  - Provide actionable advice for developers
+                  - Include specific examples from your journey
+                  - Address common career challenges
+                  - Motivate and inspire readers
+                  - Length: 800-1100 words
+                  
+                  Be authentic and relatable while providing valuable guidance.
+                  """,
+                  
+                  'ai-ml-trends': f"""
+                  Write an AI/ML trends analysis blog post for Dev.to as Pranshu Chourasia (Ansh).
+                  
+                  Context:
+                  - Your expertise: AI/ML Engineer, IEEE Researcher, Published papers
+                  - Your projects: {github_data['active_repos'][:3]}
+                  - Focus: {topic if topic else 'Latest AI/ML trends and their practical applications'}
+                  
+                  Requirements:
+                  - Analyze current AI/ML trends and technologies
+                  - Explain practical applications and use cases
+                  - Discuss implementation challenges and solutions
+                  - Share predictions for the future
+                  - Include technical insights without being too complex
+                  - Length: 1100-1400 words
+                  
+                  Write as an expert practitioner sharing valuable industry insights.
+                  """
+              }
+              
+              response = model.generate_content(prompts.get(post_type, prompts['tutorial']))
+              return response.text
+
+          def publish_to_devto(content):
+              """Publish content to Dev.to"""
+              # Extract title from content (assuming it's in the first line or front matter)
+              lines = content.split('\n')
+              title = "Auto-Generated Tech Insights"
+              
+              for line in lines[:10]:
+                  if line.startswith('# '):
+                      title = line.replace('# ', '').strip()
+                      break
+                  elif 'title:' in line:
+                      title = line.split('title:')[-1].strip().strip('"\'')
+                      break
+              
+              # Prepare Dev.to article data
+              article_data = {
+                  "article": {
+                      "title": title,
+                      "published": True,
+                      "body_markdown": content,
+                      "tags": ["ai", "machinelearning", "webdev", "programming", "tutorial"],
+                      "canonical_url": "",
+                      "description": "AI-generated tech insights and tutorials from Pranshu Chourasia (Ansh)"
+                  }
+              }
+              
+              headers = {
+                  'api-key': os.environ['DEVTO_API_KEY'],
+                  'Content-Type': 'application/json'
+              }
+              
+              response = requests.post(
+                  'https://dev.to/api/articles',
+                  headers=headers,
+                  data=json.dumps(article_data)
+              )
+              
+              if response.status_code == 201:
+                  article_info = response.json()
+                  print(f"✅ Successfully published: {article_info['url']}")
+                  return article_info['url']
+              else:
+                  print(f"❌ Failed to publish: {response.status_code} - {response.text}")
+                  return None
+
+          # Main execution
+          if __name__ == "__main__":
+              import sys
+              
+              post_type = os.environ.get('INPUT_POST_TYPE', 'tutorial')
+              topic = os.environ.get('INPUT_TOPIC', '')
+              
+              print(f"🤖 Generating {post_type} blog post...")
+              if topic:
+                  print(f"📝 Topic: {topic}")
+              
+              try:
+                  content = generate_blog_content(post_type, topic)
+                  print("✅ Content generated successfully!")
+                  
+                  # Save content locally for review
+                  timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                  filename = f"generated_blog_{timestamp}.md"
+                  with open(filename, 'w', encoding='utf-8') as f:
+                      f.write(content)
+                  print(f"💾 Content saved to {filename}")
+                  
+                  # Publish to Dev.to
+                  article_url = publish_to_devto(content)
+                  if article_url:
+                      print(f"🎉 Blog post published successfully!")
+                      print(f"🔗 URL: {article_url}")
+                      
+                      # Update workflow summary
+                      with open(os.environ['GITHUB_STEP_SUMMARY'], 'w') as f:
+                          f.write(f"""
+                          ## 🤖 AI Blog Generator Results
+                          
+                          ✅ **Successfully generated and published blog post!**
+                          
+                          - **Type:** {post_type}
+                          - **Topic:** {topic if topic else 'Auto-selected'}
+                          - **Published URL:** {article_url}
+                          - **Generated at:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')}
+                          
+                          ### 📊 Stats
+                          - Content length: ~{len(content.split())} words
+                          - Generated by: Gemini AI
+                          - Auto-published to Dev.to
+                          """)
+                  else:
+                      print("❌ Failed to publish to Dev.to")
+                      
+              except Exception as e:
+                  print(f"❌ Error: {str(e)}")
+                  sys.exit(1)
+          EOF
+
+          python ai_blog_generator.py
+
+      - name: 📝 Commit Generated Content
+        run: |
+          git config --local user.email "anshc022@gmail.com"
+          git config --local user.name "Pranshu Chourasia (Ansh)"
+          git add generated_blog_*.md || true
+          git diff --staged --quiet || git commit -m "🤖 AI Generated Blog Content - $(date '+%Y-%m-%d')" || true
+          git push || true
+
+      - name: 📊 Update Blog Stats
+        run: |
+          echo "🎉 AI Blog Generation completed at $(date)" >> blog_generation_log.txt
+          git add blog_generation_log.txt || true
+          git commit -m "📊 Updated blog generation stats" || true
+          git push || true
