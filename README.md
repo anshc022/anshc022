@@ -1,4 +1,16 @@
-[![](https://visitcount.itsvg.in/api?id=anshc022&label=Profile%20Views&color=1&icon=5&pretty=true)](https://visitcount.itsvg.in)
+[![](https://visitcount.itsvg.in/## 🖥️ My Battle Station Arsenal
+*aka "The Hardware That Powers My Digital Dreams"*
+
+### 💻 Main Development Machine
+![Lenovo](https://img.shields.io/badge/Lenovo-Gaming_Pad_3_💪-E2231A?style=for-the-badge&logo=lenovo&logoColor=white)
+
+### 🤖 AI & ML Powerhouse
+![NVIDIA](https://img.shields.io/badge/NVIDIA-Jetson_Nano_🧠-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+
+### 🔧 IoT Development Hub
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-4_Model_B_🍓-A22846?style=for-the-badge&logo=raspberry-pi&logoColor=white)
+
+**Fun Fact:** This setup lets me code on my laptop, train AI models on the Jetson Nano, and control smart devices with the Pi - it's like having a mini tech empire on my desk! *(And yes, they all have cool names)*nshc022&label=Profile%20Views&color=1&icon=5&pretty=true)](https://visitcount.itsvg.in)
 
 <div align="center">
   <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
@@ -18,18 +30,31 @@
 
 ## 🤖 About This Human
 
-Hey there! I'm **Pranshu Chourasia**, a passionate Full Stack Developer who loves turning ideas into reality through code. I specialize in building web applications, mobile apps, and IoT solutions that actually work (most of the time 😄).
+Hey there! I'm **Pranshu Chourasia**, a passionate **AI/ML Engineer & Full-Stack Developer** from Chennai, currently pursuing my B.Tech in Computer Science. 
 
-When I'm not busy debugging my latest creation, you'll find me exploring new technologies, contributing to open source projects, or probably getting lost in documentation somewhere between Stack Overflow and GitHub!
+**The Short Version:** I turn caffeine into code and ideas into IEEE publications! 📚⚡
+
+**The Longer Version:** I'm that guy who has:
+- 🧠 **2+ IEEE research publications** (because one wasn't enough!)
+- 💰 **$5500 IEEE EPICS grant** recipient (they actually paid me to be nerdy!)
+- 🏆 **Multiple hackathon winner** (including Smart India Hackathon)
+- 💼 **Successfully launched an e-commerce business** generating ₹45,900 revenue
+- 🤖 **Built AI models that can identify corn seeds** better than most humans
+- 👨‍🏫 **Mentored 25+ developers** (and survived to tell the tale!)
+
+When I'm not busy teaching machines to see, think, and probably take over the world, you'll find me building full-stack applications, contributing to open source, or probably debugging something that "worked fine yesterday" 🤷‍♂️
 
 ## 🧠 Currently Upgrading My Brain With
-- 🔗 **Blockchain Development** *(Because regular chains are too mainstream)*
-- ☁️ **Cloud Architecture** *(Making my code float in the sky)*
-- 🤖 **Machine Learning with TensorFlow** *(Teaching machines to be smarter than me)*
-- 🏗️ **Microservices Architecture** *(Breaking things into smaller, more manageable pieces to break)*
+- � **Advanced Computer Vision** *(Teaching machines to see better than humans)*
+- 🚀 **Large Language Models** *(Because ChatGPT needs competition)*
+- ⚡ **Edge AI Deployment** *(Making Raspberry Pis smarter than smartphones)*
+- 🏗️ **MLOps & AI Pipeline Architecture** *(Automating the automation)*
+- 🧬 **Biosensor Integration** *(Mixing biology with bytes)*
 
 ## 🎯 Mission Statement
-> "To write code so clean that even my rubber duck would be proud, and to build applications so user-friendly that even my grandma could use them (though she still types with one finger)"
+> "To bridge the gap between cutting-edge AI research and real-world applications, while making sure my code doesn't accidentally create Skynet" 
+
+*Current Status: Successfully avoided creating sentient AI... so far* 🤖
 
 ## �️ My Battle Station Specs
 *aka "The Machine That Runs My Dreams"*
@@ -43,18 +68,31 @@ When I'm not busy debugging my latest creation, you'll find me exploring new tec
 ## 🛠️ My Arsenal of Code Destruction... I Mean Creation!
 
 <details>
-<summary>🎨 Frontend Magic (Click to expand the colorful chaos)</summary>
+<summary>🧠 AI/ML Sorcery (The brain behind the operation)</summary>
+
+### The "Teaching Machines to Think" Department
+![YOLOv5](https://img.shields.io/badge/-YOLOv5/v8_👁️-FF6B6B?style=for-the-badge&logo=opencv&logoColor=white)
+![PyTorch](https://img.shields.io/badge/-PyTorch_🔥-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/-OpenCV_�-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/-TensorFlow_🧠-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![LLAMA 2](https://img.shields.io/badge/-LLAMA_2_🦙-4A90E2?style=for-the-badge&logo=meta&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/-MediaPipe_�-4285F4?style=for-the-badge&logo=google&logoColor=white)
+
+*"Making computers smarter than my college professors since 2022!"*
+</details>
+
+<details>
+<summary>🎨 Frontend Magic (Click to expand the visual wizardry)</summary>
 
 ### The Visual Wizardry Department
 ![React](https://img.shields.io/badge/-React_⚛️-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/-Next.js_🚀-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![Vue.js](https://img.shields.io/badge/-Vue.js_💚-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
+![React Native](https://img.shields.io/badge/-React_Native_📱-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/-TypeScript_📘-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![HTML5](https://img.shields.io/badge/-HTML5_🏗️-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3_🎨-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/-TailwindCSS_💨-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/-Bootstrap_📱-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-*"Making the internet prettier, one div at a time!"*
+*"Making pixels dance and users happy since 2022!"*
 </details>
 
 <details>
@@ -63,64 +101,53 @@ When I'm not busy debugging my latest creation, you'll find me exploring new tec
 ### The Server Whispering Department
 ![Node.js](https://img.shields.io/badge/-Node.js_🟢-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/-Express.js_🚂-000000?style=for-the-badge&logo=express&logoColor=white)
-![Python](https://img.shields.io/badge/-Python_🐍-3776AB?style=for-the-badge&logo=Python&logoColor=white)
-![Django](https://img.shields.io/badge/-Django_🎸-092E20?style=for-the-badge&logo=django&logoColor=white)
+![Flask](https://img.shields.io/badge/-Flask_�️-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/-FastAPI_⚡-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-
-*"Teaching servers to behave since... well, recently!"*
-</details>
-
-<details>
-<summary>💬 Languages I Speak Fluently (And some I'm still learning)</summary>
-
-### The Polyglot Programming Department
-![JavaScript](https://img.shields.io/badge/-JavaScript_☕-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript_📘-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Django](https://img.shields.io/badge/-Django_🎸-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python_🐍-3776AB?style=for-the-badge&logo=Python&logoColor=white)
-![C++](https://img.shields.io/badge/-C++_⚔️-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Java](https://img.shields.io/badge/-Java_☕-007396?style=for-the-badge&logo=java&logoColor=white)
 
-*"Fluent in code, still working on human languages!"*
+*"Building APIs that handle 1K+ requests daily and don't crash!"*
 </details>
 
 <details>
-<summary>🗄️ Data & Cloud Mastery (Where my data lives)</summary>
+<summary>🗄️ Data & Cloud Mastery (Where my AI models live)</summary>
 
 ### The Data Hoarding Department
 ![MongoDB](https://img.shields.io/badge/-MongoDB_🍃-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL_🐘-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/-MySQL_🐬-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![SQL](https://img.shields.io/badge/-SQL_�️-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![AWS](https://img.shields.io/badge/-AWS_☁️-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Firebase](https://img.shields.io/badge/-Firebase_🔥-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Supabase](https://img.shields.io/badge/-Supabase_⚡-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Vercel](https://img.shields.io/badge/-Vercel_⚡-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker_🐳-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-*"My data is safer than my browser history!"*
+*"My databases are more organized than my life!"*
 </details>
 
 <details>
 <summary>🔧 DevOps & Tools (My digital toolbox)</summary>
 
 ### The "Make It Work" Department
-![Docker](https://img.shields.io/badge/-Docker_🐳-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git_🌿-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions_🤖-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux_🐧-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Nginx](https://img.shields.io/badge/-Nginx_🚀-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![VS Code](https://img.shields.io/badge/-VS%20Code_💙-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Postman](https://img.shields.io/badge/-Postman_📮-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![GitHub](https://img.shields.io/badge/-GitHub_🐙-181717?style=for-the-badge&logo=github&logoColor=white)
+![REST APIs](https://img.shields.io/badge/-REST_APIs_�-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![JWT](https://img.shields.io/badge/-JWT_�-000000?style=for-the-badge&logo=json-web-tokens&logoColor=white)
+![OAuth](https://img.shields.io/badge/-OAuth_�-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![CI/CD](https://img.shields.io/badge/-CI/CD_�-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 
 *"DevOps: Because someone has to make the magic happen!"*
 </details>
 
 <details>
-<summary>📱 Mobile Wizardry (Apps that work on tiny screens)</summary>
+<summary>🤖 IoT & Edge Computing (Making everyday objects smart)</summary>
 
-### The Pocket-Sized Dreams Department
-![React Native](https://img.shields.io/badge/-React_Native_📱-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Flutter](https://img.shields.io/badge/-Flutter_🦋-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Android](https://img.shields.io/badge/-Android_🤖-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+### The "Internet of Everything" Department
+![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi_🍓-A22846?style=for-the-badge&logo=raspberry-pi&logoColor=white)
+![Jetson Nano](https://img.shields.io/badge/-Jetson_Nano_�-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![Arduino](https://img.shields.io/badge/-Arduino_🔌-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+![IoT Sensors](https://img.shields.io/badge/-IoT_Sensors_📡-FF6B6B?style=for-the-badge&logo=iot&logoColor=white)
+![Edge AI](https://img.shields.io/badge/-Edge_AI_�-4ECDC4?style=for-the-badge&logo=tensorflow&logoColor=white)
 
-*"Making apps so good, you'll forget to close them!"*
+*"Making corn seeds smarter than some people I know!"*
 </details>
 
 ## 🏆 Hall of Fame (aka My Humble Brags)
@@ -129,23 +156,64 @@ When I'm not busy debugging my latest creation, you'll find me exploring new tec
   <table>
     <tr>
       <td align="center">
-        <img src="https://img.shields.io/badge/100+-Projects_Completed-31C442?style=for-the-badge&logo=github&logoColor=white"/>
+        <img src="https://img.shields.io/badge/15+-AI/ML_Projects-FF6B6B?style=for-the-badge&logo=tensorflow&logoColor=white"/>
         <br />
-        <small><i>"Quality over quantity, but hey, why not both?"</i></small>
+        <small><i>"From YOLOv5 to LLAMA 2, I speak fluent AI"</i></small>
       </td>
       <td align="center">
-        <img src="https://img.shields.io/badge/500+-Open_Source_Contributions-2088FF?style=for-the-badge&logo=github&logoColor=white"/>
+        <img src="https://img.shields.io/badge/2-IEEE_Publications-4ECDC4?style=for-the-badge&logo=ieee&logoColor=white"/>
         <br />
-        <small><i>"Giving back to the community, one PR at a time"</i></small>
+        <small><i>"Published more papers than I've read... wait"</i></small>
       </td>
       <td align="center">
-        <img src="https://img.shields.io/badge/10+-Certifications_Earned-FF6C37?style=for-the-badge&logo=acclaim&logoColor=white"/>
+        <img src="https://img.shields.io/badge/$5500-Grant_Funding-45B7D1?style=for-the-badge&logo=ethereum&logoColor=white"/>
         <br />
-        <small><i>"Collecting certificates like Pokémon cards"</i></small>
+        <small><i>"IEEE thought my corn sorter was worth funding!"</i></small>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://img.shields.io/badge/25+-Developers_Mentored-96CEB4?style=for-the-badge&logo=github&logoColor=white"/>
+        <br />
+        <small><i>"Teaching others to code since I figured it out"</i></small>
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/₹45,900-Revenue_Generated-FECA57?style=for-the-badge&logo=shopify&logoColor=white"/>
+        <br />
+        <small><i>"Entrepreneur by day, debugger by night"</i></small>
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/90%+-AI_Model_Accuracy-FF9FF3?style=for-the-badge&logo=python&logoColor=white"/>
+        <br />
+        <small><i>"My models are more accurate than my predictions"</i></small>
       </td>
     </tr>
   </table>
 </div>
+
+## 🚀 Featured Projects That Don't Suck
+
+### 🌽 **Smart Corn Seed Sorter** - *The Million Dollar Baby*
+- **What it does:** Uses YOLOv5/v8 to sort corn seeds faster than a caffeinated intern
+- **Cool factor:** 92% accuracy, processes 10,000+ seeds/hour, IEEE funded it with $5500!
+- **Tech magic:** Edge AI on Raspberry Pi & Jetson Nano
+
+### 🛡️ **Women Safety Analytics** - *Big Brother, But For Good*
+- **What it does:** Real-time CCTV threat detection using computer vision
+- **Cool factor:** 95% accuracy, 85% reduction in false positives
+- **Tech magic:** YOLOv5 + MediaPipe + Face Recognition + A lot of coffee
+
+### ⛏️ **TrackMine** - *Smart India Hackathon Star*
+- **What it does:** Coal sector project management with LLAMA 2 integration
+- **Cool factor:** Supports 500+ workflows, offline mobile functionality
+- **Tech magic:** React Native + Node.js + MongoDB + LLAMA 2 NLP
+
+### 🤖 **ThinkForge** - *Historical Debate Simulator*
+- **What it does:** AI-powered debates with 20+ historical thinkers
+- **Cool factor:** 95% historical authenticity (Einstein would be proud)
+- **Tech magic:** Next.js + LangChain + PostgreSQL + Time travel (kidding!)
+
+*And many more projects that make my GitHub look cooler than it actually is...*
 
 ## � My GitHub Story in Numbers
 *Because developers love analytics almost as much as coffee*
@@ -195,20 +263,32 @@ When I'm not busy debugging my latest creation, you'll find me exploring new tec
 
 ```javascript
 const currentStatus = {
-    status: "Coding",
-    currentProject: "Something awesome (I hope)",
-    coffeeLevel: "Dangerously low ☕",
-    bugCount: "Decreasing (fingers crossed)",
-    motivation: "High (caffeine dependent)",
-    currentMood: "Excited about the next feature",
+    status: "Building AI that doesn't want to destroy humanity",
+    currentProject: "Teaching machines to sort corn (seriously!)",
+    coffeeLevel: "Dangerously high ☕☕☕",
+    bugCount: "Inversely proportional to coffee consumption",
+    motivation: "IEEE grant funded (money is a great motivator)",
+    currentMood: "Excited about my next research publication",
     
-    lifeGoals: [
-        "Write code that doesn't need comments",
-        "Master the art of clean architecture", 
-        "Build something that changes the world",
-        "Finally understand CSS centering (ongoing)"
+    achievements: [
+        "2 IEEE publications before graduation ✅",
+        "Successfully mentored 25+ developers ✅", 
+        "Built AI models with 90%+ accuracy ✅",
+        "Got funding for corn sorting project ✅",
+        "Still haven't created Skynet ✅"
+    ],
+    
+    currentGoals: [
+        "Finish B.Tech without going insane",
+        "Publish more papers than my advisor",
+        "Make my corn sorter world-famous",
+        "Finally understand why my code works",
+        "Teach more developers to question everything"
     ]
 };
+
+// Fun fact: This object has better documentation than most of my projects
+console.log("Still debugging life, one console.log at a time!");
 ```
 
 ## 🤝 Let's Connect & Build Something Epic!
@@ -232,13 +312,16 @@ const currentStatus = {
 ### 🎯 Fun Facts About Me
 
 ```
-🎮 When I'm not coding, I'm probably gaming or watching tech YouTube
-🍕 Pizza is my debugging fuel (sorry, coffee!)
-🎵 I code better with music (preferably lo-fi or electronic)
-🌱 Always learning something new (currently obsessed with AI)
-🎯 Goal: Make technology accessible and fun for everyone
-📚 I read tech blogs like others read novels
-🎭 I believe good code is like a good joke - if you have to explain it, it's not that good
+� B.Tech CSE student who already has 2 IEEE publications (overachiever much?)
+� I can identify corn seed quality better than most farmers (thanks to AI)
+� Won multiple hackathons including Smart India Hackathon (trophy collector)
+💰 Generated ₹45,900 revenue from my own e-commerce business (entrepreneur life)
+🤖 Built AI models deployed on 8+ production systems (they actually work!)
+🧑‍🏫 Mentored 25+ developers (and they still talk to me)
+📊 My GitHub contributions look better than my academic attendance
+� Published research on smart homes and biosensors (science is cool!)
+☕ Consume coffee in direct proportion to code quality
+🐛 My bugs are so advanced, they have their own research papers
 ```
 
 </div>
@@ -246,8 +329,9 @@ const currentStatus = {
 ---
 
 <div align="center">
-  <h3>💡 "Code is like humor. When you have to explain it, it's bad." - Cory House</h3>
-  <p><i>Let's build something amazing together! Whether it's a revolutionary app, a cool website, or just want to chat about the latest in tech - I'm always up for a good conversation! 🚀</i></p>
+  <h3>� "The best error message is the one that never shows up." - Thomas Fuchs</h3>
+  <p><i>Currently accepting: Collaboration offers, Research opportunities, Coffee donations, and Debugging challenges! 🚀</i></p>
+  <p><i>📧 Let's build the future together - one algorithm at a time!</i></p>
   
   <img src="https://media.giphy.com/media/1GEATImIxEXVR79Dhk/giphy.gif" width="50"> <b>Thanks for visiting my profile!</b> <img src="https://media.giphy.com/media/1GEATImIxEXVR79Dhk/giphy.gif" width="50">
   
