@@ -27,6 +27,9 @@ jobs:
   generate-and-publish-blog:
     name: AI Blog Content Generator
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - name: 🛎️ Checkout Repository
         uses: actions/checkout@v4
@@ -145,7 +148,7 @@ jobs:
               )
               return response.text
 
-          def publish_to_devto(content):
+          def publish_to_devto(content, post_type="tutorial"):
               """Publish content to Dev.to"""
               # Extract title from content
               lines = content.split('\n')
@@ -159,16 +162,24 @@ jobs:
                       title = line.split('title:')[-1].strip().strip('"\'')
                       break
               
+              # Dynamic tags based on post type (max 4 tags)
+              tag_map = {
+                  'tutorial': ["tutorial", "programming", "webdev", "learning"],
+                  'project-showcase': ["project", "showcase", "coding", "development"],
+                  'tech-insights': ["tech", "insights", "trends", "programming"],
+                  'career-tips': ["career", "advice", "programming", "growth"],
+                  'ai-ml-trends': ["ai", "machinelearning", "trends", "tech"]
+              }
+              
+              tags = tag_map.get(post_type, ["programming", "webdev", "tutorial", "tech"])
+              
               # Prepare Dev.to article data
               article_data = {
                   "article": {
                       "title": title,
                       "published": True,
                       "body_markdown": content,
-                      "tags": [
-                          "ai", "machinelearning", "webdev",
-                          "programming", "tutorial"
-                      ],
+                      "tags": tags,
                       "canonical_url": "",
                       "description": (
                           "AI-generated tech insights and tutorials from "
@@ -223,7 +234,7 @@ jobs:
                   print(f"💾 Content saved to {filename}")
                   
                   # Publish to Dev.to
-                  article_url = publish_to_devto(content)
+                  article_url = publish_to_devto(content, "tech-insights")
                   if article_url:
                       print("🎉 Blog post published successfully!")
                       print(f"🔗 URL: {article_url}")
