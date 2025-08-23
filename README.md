@@ -191,32 +191,16 @@
 
 ### 📚 IEEE Publications
 
-<table>
-<tr>
-<td width="50%">
 <div align="center">
-<img src="https://media.giphy.com/media/LaVp0AyqR5bGsC5Cbm/giphy.gif" width="80">
-<h4>🏠 Smart Home AI</h4>
-<img src="https://img.shields.io/badge/IEEE_ICSADL-2025-blue?style=for-the-badge">
-<br>
-<img src="https://geps.dev/progress/100?color=ff6e96"> **39 Full Text Views**
-<br>
-[![Paper](https://img.shields.io/badge/IEEE-Read-blue?style=flat-square&logo=ieee)](https://ieeexplore.ieee.org/document/10933179)
+
+| 🏠 Smart Home AI | 🧬 Biosensors |
+|:---:|:---:|
+| <img src="https://media.giphy.com/media/LaVp0AyqR5bGsC5Cbm/giphy.gif" width="80"> | <img src="https://media.giphy.com/media/11KzOet1ElBDz2/giphy.gif" width="80"> |
+| <img src="https://img.shields.io/badge/IEEE_ICSADL-2025-blue?style=for-the-badge"> | <img src="https://img.shields.io/badge/IEEE_ICIMA-2025-green?style=for-the-badge"> |
+| <img src="https://geps.dev/progress/39?color=ff6e96"><br>**39 Full Text Views** | <img src="https://geps.dev/progress/100?color=00d4aa"><br>**Conference Presented** |
+| [![Paper](https://img.shields.io/badge/IEEE-Read-blue?style=flat-square&logo=ieee)](https://ieeexplore.ieee.org/document/10933179) | [![Conference](https://img.shields.io/badge/IEEE-Details-green?style=flat-square&logo=ieee)](https://ieee-icima.org) |
+
 </div>
-</td>
-<td width="50%">
-<div align="center">
-<img src="https://media.giphy.com/media/11KzOet1ElBDz2/giphy.gif" width="80">
-<h4>🧬 Biosensors</h4>
-<img src="https://img.shields.io/badge/IEEE_ICIMA-2025-green?style=for-the-badge">
-<br>
-<img src="https://geps.dev/progress/100?color=00d4aa"> **Conference Presented**
-<br>
-[![Conference](https://img.shields.io/badge/IEEE-Details-green?style=flat-square&logo=ieee)](https://ieee-icima.org)
-</div>
-</td>
-</tr>
-</table>
 
 ### 🏆 Awards & Grants
 
