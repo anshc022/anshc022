@@ -26,21 +26,19 @@
 
 🔥 Transforming **coffee** ☕ into **code** 💻 and **ideas** 💡 into **reality** ⚡
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=2000&pause=500&color=FF6E96&width=600&lines=🤖+AI%2FML+Specialist;💻+Full-Stack+Developer;🔬+IEEE+Researcher;🏆+Hackathon+Winner;💰+%245500+Grant+Recipient;👨‍�+Tech+Mentor" alt="Skills" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=2000&pause=500&color=FF6E96&width=600&lines=🤖+AI%2FML+Specialist;💻+Full-Stack+Developer;🔬+IEEE+Researcher;🏆+Hackathon+Winner;💰+%245500+Grant+Recipient;👨‍💻+Tech+Mentor" alt="Skills" />
 
 ### 🏆 Quick Wins
 ```
 🔬 IEEE Papers     ██████████ 2 Published
 💰 Grant Funding   ██████████ $5500 Secured  
 🚀 Enterprise Apps ██████████ 10+ Delivered
-� Developers      ██████████ 25+ Mentored
+👥 Developers      ██████████ 25+ Mentored
 🎯 AI Accuracy     ██████████ 90%+ Average
 💸 Revenue         ██████████ ₹45,900 Generated
 ```
 
 ---
-
-## 💻 Tech Arsenal
 
 ## 💻 Tech Arsenal
 
@@ -54,7 +52,7 @@
 
 </div>
 
-### � Skill Levels
+### 📊 Skill Levels
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anshc022&layout=donut&theme=radical&hide_border=true&bg_color=0d1117" width="300" align="right">
 
@@ -98,7 +96,7 @@
 ### 📈 GitHub Summary
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anshc022&theme=radical" alt="GitHub Profile Summary" width="100%">
 
-### � Repository Stats
+### 📂 Repository Stats
 <table>
 <tr>
 <td><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=anshc022&theme=radical" alt="Repos per Language" width="100%"></td>
@@ -138,7 +136,7 @@
 <td width="25%">
 <div align="center">
 <img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="60">
-<h4>� Safety Analytics</h4>
+<h4>🔒 Safety Analytics</h4>
 <img src="https://img.shields.io/badge/SIH_2024-Winner-blue?style=for-the-badge">
 <br><br>
 <img src="https://geps.dev/progress/95?color=ff6e96"> **95% Accuracy**
@@ -160,7 +158,7 @@
 <td width="25%">
 <div align="center">
 <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="60">
-<h4>� Traffic AI</h4>
+<h4>🚦 Traffic AI</h4>
 <img src="https://img.shields.io/badge/Nissan_R&D-Partner-green?style=for-the-badge">
 <br><br>
 <img src="https://geps.dev/progress/35?color=ff6e96"> **35% Flow Boost**
