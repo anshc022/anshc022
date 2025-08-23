@@ -1,15 +1,11 @@
-<div align="center">
-  
 # 👋 Hey there! I'm Pranshu Chourasia
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=AI%2FML+Engineer;Full-Stack+Developer;IEEE+Researcher;Smart+India+Hackathon+Participant;Open+Source+Contributor" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=36BCF7&center=false&vCenter=true&width=600&lines=AI%2FML+Engineer;Full-Stack+Developer;IEEE+Researcher;Smart+India+Hackathon+Participant;Open+Source+Contributor" alt="Typing SVG" />
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-pranshudev.xyz-blue?style=for-the-badge&logo=firefox&logoColor=white)](https://pranshudev.xyz)
 [![Email](https://img.shields.io/badge/Email-contact%40pranshudev.xyz-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@pranshudev.xyz)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-pranshu--chourasia-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pranshu-chourasia-615428275)
 [![GitHub](https://img.shields.io/badge/GitHub-anshc022-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anshc022)
-
-</div>
 
 ---
 
@@ -31,7 +27,7 @@ I'm a passionate technologist who bridges the gap between cutting-edge AI resear
 
 ## 💻 Tech Arsenal
 
-<div align="center">
+## 💻 Tech Arsenal
 
 ### 🤖 AI/ML & Computer Vision
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -62,24 +58,14 @@ I'm a passionate technologist who bridges the gap between cutting-edge AI resear
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-</div>
-
 ---
 
 ## 📊 GitHub Analytics
 
-<div align="center">
-  
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=anshc022&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anshc022&layout=compact&theme=tokyonight"/>
 
-</div>
-
-<div align="center">
-  
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=anshc022&theme=tokyonight)](https://git.io/streak-stats)
-
-</div>
 
 ---
 
@@ -279,8 +265,6 @@ graph LR
 
 ## 📈 Impact & Metrics
 
-<div align="center">
-
 | Metric | Achievement |
 |--------|-------------|
 | 🏆 **Research Publications** | 2 IEEE Papers |
@@ -292,13 +276,9 @@ graph LR
 | 💼 **Revenue Generated** | ₹45,900 |
 | 🎯 **AI Model Accuracy** | 90%+ Average |
 
-</div>
-
 ---
 
 ## 🤝 Let's Connect & Collaborate!
-
-<div align="center">
 
 I'm always excited to work on innovative projects, especially those involving **AI/ML**, **computer vision**, or **full-stack development**. Whether you're looking for:
 
@@ -311,11 +291,7 @@ I'm always excited to work on innovative projects, especially those involving **
 [![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/pranshu-chourasia-615428275)
 [![Calendar](https://img.shields.io/badge/📅_Schedule_Meeting-green?style=for-the-badge&logo=calendly)](https://calendly.com/pranshudev)
 
-</div>
-
 ---
-
-<div align="center">
 
 ### 🎯 "Bridging AI Research with Real-World Solutions"
 
@@ -325,12 +301,6 @@ I'm always excited to work on innovative projects, especially those involving **
 [![GitHub followers](https://img.shields.io/github/followers/anshc022?style=social)](https://github.com/anshc022)
 [![GitHub stars](https://img.shields.io/github/stars/anshc022?style=social)](https://github.com/anshc022)
 
-</div>
-
 ---
 
-<div align="center">
-
 <img src="https://github.com/anshc022/anshc022/blob/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
-
-</div>
