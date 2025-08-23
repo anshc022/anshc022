@@ -135,10 +135,10 @@
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=anshc022&theme=radical&hide_border=true&background=0d1117&stroke=ff6e96&ring=ff6e96&fire=ff6e96&currStreakLabel=ff6e96)](https://git.io/streak-stats)
 
 ### 🏆 GitHub Trophies
-[![trophy](https://github-profile-trophy.vercel.app/?username=anshc022&theme=radical&no-frame=true&no-bg=true&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
+<img src="https://github-profile-trophy.vercel.app/?username=anshc022&theme=radical&no-frame=true&no-bg=false&margin-w=4&margin-h=1&column=7" alt="GitHub Trophies" width="100%">
 
 ### 📈 Contribution Graph
-[![Pranshu's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=anshc022&theme=react-dark&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=anshc022&theme=react-dark&hide_border=true&area=true&custom_title=Pranshu's%20Coding%20Journey" alt="Activity Graph" width="100%">
 
 ### ⚡ GitHub Metrics
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anshc022&theme=radical" alt="GitHub Profile Summary" width="100%">
@@ -157,6 +157,22 @@
 
 ### 💻 Coding Activity
 <img src="https://github-readme-activity-graph.vercel.app/api/graph?username=anshc022&theme=react-dark&hide_border=true&area=true&custom_title=Pranshu's%20Contribution%20Graph" alt="Activity Graph" width="100%">
+
+### 🎊 Additional Stats
+<table>
+<tr>
+<td>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=anshc022&repo=TrackMine&theme=radical&hide_border=true" alt="TrackMine" width="100%">
+</td>
+<td>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=anshc022&repo=PRoPilot&theme=radical&hide_border=true" alt="PRoPilot" width="100%">
+</td>
+</tr>
+</table>
+
+### 🚀 Repository Highlights
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=anshc022&theme=radical" alt="Repos per Language" width="48%">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=anshc022&theme=radical" alt="Most Commit Language" width="48%">
 
 ---
 
