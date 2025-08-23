@@ -38,12 +38,12 @@ jobs:
           output-file: false
           
       - name: Create GitHub Release
-        uses: actions/create-release@v1
+        uses: softprops/action-gh-release@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: ${{ github.ref_name || inputs.version }}
-          release_name: Release ${{ github.ref_name || inputs.version }}
+          name: Release ${{ github.ref_name || inputs.version }}
           body: |
             ## 🚀 What's New in ${{ github.ref_name || inputs.version }}
             
@@ -59,7 +59,7 @@ jobs:
             
             ---
             
-            **Full Changelog**: https://github.com/anshc022/anshc022/compare/${{ steps.changelog.outputs.previous_tag }}...${{ github.ref_name || inputs.version }}
+            **Full Changelog**: https://github.com/anshc022/anshc022/compare/previous...${{ github.ref_name || inputs.version }}
           draft: false
           prerelease: false
           

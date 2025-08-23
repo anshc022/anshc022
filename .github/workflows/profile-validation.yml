@@ -129,7 +129,7 @@ jobs:
           echo "Report generated successfully!"
           
       - name: Upload repository report
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: repository-health-report
           path: repository-report.md
