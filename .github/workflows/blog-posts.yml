@@ -1,0 +1,105 @@
+name: Update Blog Posts (Manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      blog_urls:
+        description: 'Comma-separated list of RSS feed URLs'
+        required: false
+        default: 'https://dev.to/feed/anshc022'
+        type: string
+
+jobs:
+  update-blog-posts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Validate RSS feeds
+        id: validate
+        run: |
+          echo "🔍 Validating RSS feed URLs..."
+          
+          IFS=',' read -ra FEEDS <<< "${{ inputs.blog_urls }}"
+          VALID_FEEDS=""
+          
+          for feed in "${FEEDS[@]}"; do
+            feed=$(echo "$feed" | xargs) # trim whitespace
+            echo "Checking: $feed"
+            
+            if curl -s --head "$feed" | head -n 1 | grep -q "200 OK"; then
+              echo "✅ Valid feed: $feed"
+              if [ -z "$VALID_FEEDS" ]; then
+                VALID_FEEDS="$feed"
+              else
+                VALID_FEEDS="$VALID_FEEDS,$feed"
+              fi
+            else
+              echo "❌ Invalid feed: $feed"
+            fi
+          done
+          
+          if [ -n "$VALID_FEEDS" ]; then
+            echo "has_valid_feeds=true" >> $GITHUB_OUTPUT
+            echo "valid_feeds=$VALID_FEEDS" >> $GITHUB_OUTPUT
+            echo "✅ Found valid feeds: $VALID_FEEDS"
+          else
+            echo "has_valid_feeds=false" >> $GITHUB_OUTPUT
+            echo "❌ No valid RSS feeds found"
+          fi
+          
+      - name: Add blog section to README
+        if: steps.validate.outputs.has_valid_feeds == 'true'
+        run: |
+          echo "📝 Preparing README for blog posts..."
+          
+          # Simple check and addition
+          if ! grep -q "<!-- BLOG-POST-LIST:START -->" README.md; then
+            echo "Adding blog section to README..."
+            echo "" >> README.md
+            echo "## 📝 Latest Blog Posts" >> README.md
+            echo "" >> README.md
+            echo "<!-- BLOG-POST-LIST:START -->" >> README.md
+            echo "<!-- BLOG-POST-LIST:END -->" >> README.md
+            echo "" >> README.md
+            echo "✅ Blog section added"
+          else
+            echo "ℹ️ Blog section already exists"
+          fi
+          
+      - name: Update blog posts
+        if: steps.validate.outputs.has_valid_feeds == 'true'
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          comment_tag_name: "BLOG"
+          feed_list: ${{ steps.validate.outputs.valid_feeds }}
+          max_post_count: 5
+          template: "- [$title]($url) - $publishedDate"
+          
+      - name: Commit changes
+        if: steps.validate.outputs.has_valid_feeds == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          
+          if git diff --staged --quiet; then
+            echo "📝 No blog post updates to commit"
+          else
+            git commit -m "📝 Update latest blog posts"
+            git push
+            echo "✅ Blog posts updated successfully"
+          fi
+          
+      - name: No valid feeds message
+        if: steps.validate.outputs.has_valid_feeds == 'false'
+        run: |
+          echo "❌ No valid RSS feeds found. Please check your blog URLs:"
+          echo "   - Make sure the URLs are correct"
+          echo "   - Verify that the blogs have RSS feeds enabled"
+          echo "   - Check if the blogs exist and are publicly accessible"
+          echo ""
+          echo "💡 Common RSS feed URLs:"
+          echo "   - Dev.to: https://dev.to/feed/YOUR_USERNAME"
+          echo "   - Medium: https://medium.com/feed/@YOUR_USERNAME"
+          echo "   - Hashnode: https://YOUR_USERNAME.hashnode.dev/rss.xml"

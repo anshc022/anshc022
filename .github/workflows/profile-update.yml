@@ -1,11 +1,9 @@
 name: Update Profile README
 
 on:
-  schedule:
-    - cron: '0 */6 * * *' # Every 6 hours
   workflow_dispatch:
-  push:
-    branches: [ main ]
+  schedule:
+    - cron: '0 0 * * 1' # Weekly on Monday at midnight (less frequent)
 
 jobs:
   update-readme:
@@ -18,14 +16,21 @@ jobs:
         with:
           node-version: '18'
           
-      - name: Update README with latest blog posts
-        uses: gautamkrishnar/blog-post-workflow@v1
-        with:
-          comment_tag_name: "BLOG"
-          feed_list: "https://dev.to/feed/anshc022,https://medium.com/feed/@pranshudev"
+      - name: Update README timestamp
+        run: |
+          echo "⏰ Updating profile timestamp..."
+          
+          # Update the "Last updated" line in README if it exists
+          if grep -q "Last updated:" README.md; then
+            sed -i "s/Last updated: .*/Last updated: $(date +'%B %Y') - Always evolving!* ⚡/" README.md
+            echo "✅ Updated timestamp in README"
+          else
+            echo "ℹ️ No timestamp found to update"
+          fi
           
       - name: Update README with recent activity
         uses: jamesgeorge007/github-activity-readme@master
+        continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:

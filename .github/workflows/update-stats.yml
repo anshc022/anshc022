@@ -1,0 +1,66 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: '0 */4 * * *' # Every 4 hours
+  workflow_dispatch:
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Update GitHub activity
+        uses: jamesgeorge007/github-activity-readme@master
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          COMMIT_MSG: '📊 Update GitHub activity'
+          MAX_LINES: 5
+          
+      - name: Generate GitHub metrics
+        uses: lowlighter/metrics@latest
+        continue-on-error: true
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: anshc022
+          template: classic
+          base: header, activity, community, repositories
+          config_timezone: Asia/Kolkata
+          
+      - name: Update profile views counter
+        run: |
+          echo "👀 Updating profile views..."
+          # Profile views are automatically updated by the komarev counter
+          echo "Profile views counter is active and updating automatically"
+          
+      - name: Check and update README timestamp
+        run: |
+          echo "⏰ Updating last updated timestamp..."
+          
+          # Update the "Last updated" line in README if it exists
+          if grep -q "Last updated:" README.md; then
+            sed -i "s/Last updated: .*/Last updated: $(date +'%B %Y') - Always evolving!* ⚡/" README.md
+            echo "✅ Updated timestamp in README"
+          else
+            echo "ℹ️ No timestamp found to update"
+          fi
+          
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          
+          # Only commit if there are changes
+          if git diff --staged --quiet; then
+            echo "📊 No changes to commit"
+          else
+            git commit -m "📊 Auto-update GitHub stats and activity"
+            git push
+            echo "✅ Successfully updated profile stats"
+          fi
