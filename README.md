@@ -22,98 +22,56 @@
 
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
-> **🚀 AI/ML Engineer & Full-Stack Developer** with **2+ IEEE research publications** and **$5500 grant funding**
+> **🚀 AI/ML Engineer & Full-Stack Developer** 
 
-🔥 I'm a passionate tech wizard who transforms coffee into code and ideas into reality! Currently brewing the perfect blend of **cutting-edge AI research** and **scalable full-stack solutions**.
+🔥 Transforming **coffee** ☕ into **code** 💻 and **ideas** 💡 into **reality** ⚡
 
-### 🎪 Fun Facts About Me
-- 🤖 I speak fluent **Python**, **JavaScript**, and **AI** 
-- 🧠 My brain runs on **TensorFlow** and **React** 
-- 🎯 I turn complex algorithms into simple solutions
-- 🌟 **10+ Enterprise Apps** under my belt
-- 💡 **25+ developers** learned from my wizardry
-- 🎮 When not coding, I'm probably debugging my life
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=2000&pause=500&color=FF6E96&width=600&lines=🤖+AI%2FML+Specialist;💻+Full-Stack+Developer;🔬+IEEE+Researcher;🏆+Hackathon+Winner;💰+%245500+Grant+Recipient;👨‍�+Tech+Mentor" alt="Skills" />
 
-### 🏆 Achievement Unlocked
+### 🏆 Quick Wins
 ```
-🔬 IEEE Researcher        ████████████████████ 100%
-💰 Grant Funding ($5500)  ████████████████████ 100%
-🚀 Entrepreneur           ████████████████████ 100%
-👨‍🏫 Mentor               ████████████████████ 100%
-🏅 Hackathon Winner       ████████████████████ 100%
+🔬 IEEE Papers     ██████████ 2 Published
+💰 Grant Funding   ██████████ $5500 Secured  
+🚀 Enterprise Apps ██████████ 10+ Delivered
+� Developers      ██████████ 25+ Mentored
+🎯 AI Accuracy     ██████████ 90%+ Average
+💸 Revenue         ██████████ ₹45,900 Generated
 ```
 
 ---
 
 ## 💻 Tech Arsenal
 
-## 💻 Tech Arsenal & Superpowers
+## 💻 Tech Arsenal
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<img align="right" alt="Tech Stack" width="300" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif">
+<div align="center">
+  
+### 🚀 My Superpowers
 
-### 🤖 AI/ML & Computer Vision
-![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white)
-![YOLOv5](https://img.shields.io/badge/YOLOv5-00FFFF?style=for-the-badge&logo=yolo&logoColor=black)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Scikit Learn](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+<img src="https://skillicons.dev/icons?i=python,pytorch,opencv,tensorflow,js,react,nextjs,nodejs,express,django,flask,fastapi,mongodb,postgres,aws,docker,git,vscode&theme=dark" alt="Tech Stack" />
 
-### 🎨 Frontend Wizardry
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+</div>
 
-### ⚡ Backend Sorcery
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![FastAPI](https://img.shields.io/badge/fastapi-109989?style=for-the-badge&logo=FASTAPI&logoColor=white)
+### � Skill Levels
 
-### 🗄️ Database & Cloud Magic
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![AWS](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anshc022&layout=donut&theme=radical&hide_border=true&bg_color=0d1117" width="300" align="right">
 
-### 🛠️ Tools & Weapons
-![VS Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+**AI/ML & Computer Vision**
+![](https://geps.dev/progress/95?color=ff6e96) 95%
 
-### 📊 Language Stats
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anshc022&theme=radical&hide_border=true&layout=compact&langs_count=8" alt="Top Languages" width="500">
+**Full-Stack Development** 
+![](https://geps.dev/progress/90?color=00d4aa) 90%
 
-### 🎯 Skills Radar Chart
-```
-          AI/ML ████████████████████ 95%
-     Full-Stack ████████████████████ 90%
-    DevOps/Cloud ██████████████████   85%
-       Research ████████████████████ 95%
-     Leadership ███████████████████  88%
-```
+**DevOps & Cloud**
+![](https://geps.dev/progress/85?color=ffb347) 85%
 
-### 🔥 GitHub Performance
-<table>
-<tr>
-<td>
-<img src="https://github-readme-stats.vercel.app/api?username=anshc022&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" width="100%">
-</td>
-<td>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=anshc022&theme=radical&hide_border=true" alt="GitHub Streak" width="100%">
-</td>
-</tr>
-</table>
+**Research & Writing**
+![](https://geps.dev/progress/95?color=a78bfa) 95%
+
+**Leadership & Mentoring**
+![](https://geps.dev/progress/88?color=fb7185) 88%
 
 ---
 
@@ -154,239 +112,181 @@
 
 ---
 
-## 🏗️ Featured Projects & Epic Builds
+## 🏗️ Featured Projects
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-### 🤖 AI/ML Projects That Rock
+<div align="center">
+  
+### 🤖 AI/ML Projects
+
+</div>
 
 <table>
 <tr>
-<td width="50%">
-
-#### 🌽 Smart Corn Seed Sorter
-**💰 IEEE EPICS Funded ($5500)**
-
-<img align="right" width="80" src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif">
-
-- **🎯 92% accuracy** in real-time classification
-- **⚡ 10,000+ seeds/hour** processing speed
-- 🔥 Edge AI deployment on **Raspberry Pi & Jetson Nano**
-- 🧠 **YOLOv5/v8** + Custom CNN architecture
-
-**Tech Stack:** `YOLOv5/v8` `Raspberry Pi` `Edge AI` `Computer Vision`
-
-[![GitHub](https://img.shields.io/badge/GitHub-View_Code-black?style=flat-square&logo=github)](https://github.com/anshc022/smart-corn-sorter)
-
+<td width="25%">
+<div align="center">
+<img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="60">
+<h4>🌽 Smart Corn Sorter</h4>
+<img src="https://img.shields.io/badge/IEEE_EPICS-$5500-gold?style=for-the-badge">
+<br><br>
+<img src="https://geps.dev/progress/92?color=ff6e96"> **92% Accuracy**
+<br>
+<img src="https://geps.dev/progress/100?color=00d4aa"> **10K+ Seeds/Hour**
+</div>
 </td>
-<td width="50%">
-
-#### 🚨 Women Safety Analytics
-**🏆 Smart India Hackathon 2024**
-
-<img align="right" width="80" src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif">
-
-- **🎯 95% accuracy** in threat detection
-- **📉 85% reduction** in false positives  
-- 🎥 Real-time CCTV monitoring system
-- 🧠 Multi-modal AI approach
-
-**Tech Stack:** `YOLOv5` `MediaPipe` `OpenCV` `Face Recognition`
-
-[![Demo](https://img.shields.io/badge/Live-Demo-green?style=flat-square&logo=vercel)](https://women-safety-demo.vercel.app)
-
+<td width="25%">
+<div align="center">
+<img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="60">
+<h4>� Safety Analytics</h4>
+<img src="https://img.shields.io/badge/SIH_2024-Winner-blue?style=for-the-badge">
+<br><br>
+<img src="https://geps.dev/progress/95?color=ff6e96"> **95% Accuracy**
+<br>
+<img src="https://geps.dev/progress/85?color=ffb347"> **85% Less False+**
+</div>
 </td>
-</tr>
-<tr>
-<td width="50%">
-
-#### 🛒 Flipkart Quality Analyzer
-**🤖 GRiD 6.0 Robotics Challenge**
-
-<img align="right" width="80" src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif">
-
-- **🎯 90% accuracy** across 10,000+ samples
-- **📊 75% reduction** in manual inspection
-- 🏭 Industrial automation solution
-- 🔬 Computer vision + CNN implementation
-
-**Tech Stack:** `Computer Vision` `CNN` `OpenCV` `SQL`
-
-[![GitHub](https://img.shields.io/badge/GitHub-View_Code-black?style=flat-square&logo=github)](https://github.com/anshc022/Flipkart-Smart-Vision)
-
+<td width="25%">
+<div align="center">
+<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="60">
+<h4>🛒 Quality Analyzer</h4>
+<img src="https://img.shields.io/badge/Flipkart_GRiD-Finalist-purple?style=for-the-badge">
+<br><br>
+<img src="https://geps.dev/progress/90?color=ff6e96"> **90% Accuracy**
+<br>
+<img src="https://geps.dev/progress/75?color=a78bfa"> **75% Less Manual**
+</div>
 </td>
-<td width="50%">
-
-#### 🚦 Smart Traffic Management
-**🚗 Minor Project with Nissan R&D**
-
-<img align="right" width="80" src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif">
-
-- **📈 35% optimization** in traffic flow
-- 🛣️ 50+ intersection simulations
-- 📡 IoT sensor integration
-- 🚙 Autonomous vehicle infrastructure
-
-**Tech Stack:** `YOLOv5` `IoT` `OpenCV` `SQL`
-
-[![GitHub](https://img.shields.io/badge/GitHub-View_Code-black?style=flat-square&logo=github)](https://github.com/anshc022/minor-industry)
-
+<td width="25%">
+<div align="center">
+<img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="60">
+<h4>� Traffic AI</h4>
+<img src="https://img.shields.io/badge/Nissan_R&D-Partner-green?style=for-the-badge">
+<br><br>
+<img src="https://geps.dev/progress/35?color=ff6e96"> **35% Flow Boost**
+<br>
+<img src="https://geps.dev/progress/50?color=00d4aa"> **50+ Simulations**
+</div>
 </td>
 </tr>
 </table>
 
-### 💻 Full-Stack Applications That Amaze
+<div align="center">
+  
+### 💻 Full-Stack Apps
+
+</div>
 
 <table>
 <tr>
-<td width="50%">
-
-#### ⛏️ TrackMine - SIH 2024
-**🏆 National Level Project**
-
-<img align="right" width="80" src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif">
-
-- 🏢 Coal sector project management for **CMPDI**
-- ⚡ **500+ workflows** supported
-- 📱 **React Native** mobile app with offline mode
-- 🤖 **LLAMA 2** NLP integration for smart queries
-
-**Tech Stack:** `React Native` `Node.js` `MongoDB` `PyTorch`
-
-[![GitHub](https://img.shields.io/badge/GitHub-View_Code-black?style=flat-square&logo=github)](https://github.com/anshc022/TrackMine)
-[![Demo](https://img.shields.io/badge/Live-Demo-green?style=flat-square&logo=vercel)](https://trackmine-demo.vercel.app)
-
+<td width="33%">
+<div align="center">
+<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="60">
+<h4>⛏️ TrackMine</h4>
+<img src="https://img.shields.io/badge/SIH_2024-National-red?style=for-the-badge">
+<br>
+[![GitHub](https://img.shields.io/badge/GitHub-View-black?style=flat-square&logo=github)](https://github.com/anshc022/TrackMine)
+<br>
+<img src="https://geps.dev/progress/100?color=ff6e96"> **500+ Workflows**
+</div>
 </td>
-<td width="50%">
-
-#### 🤖 PRoPilot
-**🚀 AI GitHub Automation**
-
-<img align="right" width="80" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif">
-
-- 🛠️ AI-powered GitHub workflow automation
-- 👥 **500+ developers** actively using
-- 💬 Intelligent commit message generation
-- 📱 Real-time Telegram notifications
-
-**Tech Stack:** `Node.js` `MongoDB` `GitHub API` `Telegram API`
-
-[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=flat-square&logo=vercel)](https://p-ro-pilot.vercel.app)
-[![GitHub](https://img.shields.io/badge/GitHub-View_Code-black?style=flat-square&logo=github)](https://github.com/anshc022/PRoPilot)
-
+<td width="33%">
+<div align="center">
+<img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="60">
+<h4>🤖 PRoPilot</h4>
+<img src="https://img.shields.io/badge/AI_Powered-GitHub-blue?style=for-the-badge">
+<br>
+[![Demo](https://img.shields.io/badge/Live-Demo-green?style=flat-square&logo=vercel)](https://p-ro-pilot.vercel.app)
+<br>
+<img src="https://geps.dev/progress/100?color=00d4aa"> **500+ Developers**
+</div>
 </td>
-</tr>
-<tr>
-<td width="50%">
-
-#### 💭 ThinkForge
-**🧠 AI Debate Simulator**
-
-<img align="right" width="80" src="https://media.giphy.com/media/l46Cy1rHbQ92uuLXa/giphy.gif">
-
-- 🎭 AI debate with **20+ historical thinkers**
-- 🎯 **95% historical authenticity** achieved
-- ⚡ Real-time debate generation
-- 🔍 Dual-phase contextual research pipeline
-
-**Tech Stack:** `Next.js` `PostgreSQL` `LangChain` `Node.js`
-
-[![DevPost](https://img.shields.io/badge/DevPost-View_Project-blue?style=flat-square&logo=devpost)](https://devpost.com/thinkforge)
-[![Demo](https://img.shields.io/badge/Live-Demo-green?style=flat-square&logo=vercel)](https://thinkforge-demo.vercel.app)
-
-</td>
-<td width="50%">
-
-#### 📄 RoastMyResume
-**🔥 AI Resume Roaster**
-
-<img align="right" width="80" src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif">
-
-- 🤖 AI-powered resume feedback platform
-- 👥 **2,000+ users** roasted their resumes
-- ⭐ **92% satisfaction rating**
-- 📎 Multi-format file processing magic
-
-**Tech Stack:** `Next.js` `MongoDB` `LLM APIs` `REST APIs`
-
-[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=flat-square&logo=vercel)](https://rostmyresume.xyz)
-[![GitHub](https://img.shields.io/badge/GitHub-View_Code-black?style=flat-square&logo=github)](https://github.com/anshc022/RoastMyResume)
-
+<td width="33%">
+<div align="center">
+<img src="https://media.giphy.com/media/l46Cy1rHbQ92uuLXa/giphy.gif" width="60">
+<h4>💭 ThinkForge</h4>
+<img src="https://img.shields.io/badge/AI_Debate-Simulator-purple?style=for-the-badge">
+<br>
+[![DevPost](https://img.shields.io/badge/DevPost-View-blue?style=flat-square&logo=devpost)](https://devpost.com/thinkforge)
+<br>
+<img src="https://geps.dev/progress/95?color=a78bfa"> **95% Authentic**
+</div>
 </td>
 </tr>
 </table>
 
 ---
 
-## 🎓 Research & Publications That Matter
+## 🎓 Research & Achievements
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-### 📚 IEEE Publications (Research Mode: ON 🔬)
+<div align="center">
+
+### 📚 IEEE Publications
 
 <table>
 <tr>
 <td width="50%">
-
-<img align="right" width="100" src="https://media.giphy.com/media/LaVp0AyqR5bGsC5Cbm/giphy.gif">
-
-#### 🏠 "Smart Home User Action Prediction"
-**📊 IEEE ICSADL 2025**
-
-- 🎯 **DOI:** 10.1109/ICSADL65848.2025.10933179
-- 📈 **39 Full Text Views** and counting!
-- 🤖 Fast prediction system for autonomous homes
-- 🔬 Published in sentiment analysis & deep learning
-
-[![Paper](https://img.shields.io/badge/IEEE-Read_Paper-blue?style=flat-square&logo=ieee)](https://ieeexplore.ieee.org/document/10933179)
-
+<div align="center">
+<img src="https://media.giphy.com/media/LaVp0AyqR5bGsC5Cbm/giphy.gif" width="80">
+<h4>🏠 Smart Home AI</h4>
+<img src="https://img.shields.io/badge/IEEE_ICSADL-2025-blue?style=for-the-badge">
+<br>
+<img src="https://geps.dev/progress/100?color=ff6e96"> **39 Full Text Views**
+<br>
+[![Paper](https://img.shields.io/badge/IEEE-Read-blue?style=flat-square&logo=ieee)](https://ieeexplore.ieee.org/document/10933179)
+</div>
 </td>
 <td width="50%">
-
-<img align="right" width="100" src="https://media.giphy.com/media/11KzOet1ElBDz2/giphy.gif">
-
-#### 🧬 "Chemical Biosensors for Real-Time Monitoring"
-**⚗️ IEEE ICIMA 2025**
-
-- 🔬 Real-time oxidative damage monitoring
-- 📊 Human physiological signal analysis
-- 🏆 Presented at 7th International Conference
-- 📜 Conference presentation certificate earned
-
-[![Conference](https://img.shields.io/badge/IEEE-Conference_Details-green?style=flat-square&logo=ieee)](https://ieee-icima.org)
-
+<div align="center">
+<img src="https://media.giphy.com/media/11KzOet1ElBDz2/giphy.gif" width="80">
+<h4>🧬 Biosensors</h4>
+<img src="https://img.shields.io/badge/IEEE_ICIMA-2025-green?style=for-the-badge">
+<br>
+<img src="https://geps.dev/progress/100?color=00d4aa"> **Conference Presented**
+<br>
+[![Conference](https://img.shields.io/badge/IEEE-Details-green?style=flat-square&logo=ieee)](https://ieee-icima.org)
+</div>
 </td>
 </tr>
 </table>
 
-### 🏆 Grants & Recognition Hall of Fame
+### 🏆 Awards & Grants
 
-```
-💰 IEEE EPICS Grant - $5500      ████████████████████ 100%
-🏅 Smart India Hackathon 2024    ████████████████████ 100%  
-🥇 1st Prize - College Hackathon  ████████████████████ 100%
-🥇 1st Prize - Ideation Comp      ████████████████████ 100%
-🥈 2nd Prize - VISAI Event        ████████████████████ 100%
-```
+<img src="https://img.shields.io/badge/💰_IEEE_EPICS-$5500-gold?style=for-the-badge&logo=ieee">
+<img src="https://img.shields.io/badge/🥇_SIH_2024-Winner-red?style=for-the-badge">
+<img src="https://img.shields.io/badge/🥇_College_Hackathon-1st_Prize-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/🥇_Ideation_Comp-1st_Prize-purple?style=for-the-badge">
 
-### 🎖️ Certifications & Achievements
+### 📈 Impact Metrics
 
-**🤖 AI & Machine Learning Mastery**
-- ✅ **AI Fundamentals** - Great Learning (Sep 2024)
-- ✅ **MLOps Fundamentals** - Great Learning (Aug 2024)  
-- ✅ **LLMs Specialization** - Google (Jun 2024)
-- ✅ **Responsible AI** - Google (Jun 2024)
+</div>
 
-**💼 Professional Development**
-- ✅ **Agile Project Management** - HP (Oct 2024)
-- ✅ **Cybersecurity Fundamentals** - HP (Oct 2024)
-- ✅ **Infosys Duelist Certified** - Infosys (Jun 2024)
-
-**🏆 Competition Victories**
-- 🥇 **HP Power Lab Winner** - Unstop (Jan 2025)
-- 🥇 **Infosys Ideathon Winner** - Infosys (Sep 2024)
-- 🥇 **Flipkart GRiD 6.0 Finalist** - Unstop (Aug 2024)
-- 🎤 **IEEE Presenter** - ICSADL (Feb 2025)
+<table>
+<tr>
+<td width="50%">
+<div align="center">
+<h4>🔬 Research Impact</h4>
+<img src="https://geps.dev/progress/100?color=ff6e96"> **2 IEEE Papers**
+<br>
+<img src="https://geps.dev/progress/100?color=00d4aa"> **$5500 Grant**
+<br>
+<img src="https://geps.dev/progress/100?color=ffb347"> **39+ Citations**
+</div>
+</td>
+<td width="50%">
+<div align="center">
+<h4>💼 Business Impact</h4>
+<img src="https://geps.dev/progress/100?color=a78bfa"> **₹45,900 Revenue**
+<br>
+<img src="https://geps.dev/progress/100?color=fb7185"> **1000+ Users Served**
+<br>
+<img src="https://geps.dev/progress/100?color=34d399"> **25+ Developers Mentored**
+</div>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -515,114 +415,45 @@ graph TD
 
 ---
 
-## 🤝 Let's Connect & Build Something Epic!
+## 🤝 Let's Connect & Build Epic Stuff!
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<img align="right" alt="Connect" width="300" src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif">
+<div align="center">
 
-**🚀 Ready to collaborate on the next big thing?** 
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="200">
 
-I'm always buzzing with excitement for innovative projects, especially those involving:
+### 🚀 Ready to Collaborate?
 
-🔬 **AI/ML Research & Development** | 💻 **Full-Stack Web Applications** | 🤖 **Computer Vision Solutions** | 📱 **Mobile App Development**
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=1000&color=FF6E96&center=true&width=500&lines=🔬+AI%2FML+Research;💼+Enterprise+Solutions;🚀+Startup+MVPs;🎓+Tech+Mentoring;🏆+Hackathon+Teams" alt="Collaboration" />
 
-### 🌟 Let's Create Magic Together!
-
-Whether you're looking for:
-- 🔬 **Research Collaboration** on cutting-edge AI projects
-- 💼 **Enterprise Solutions** that scale globally  
-- 🚀 **Startup MVP Development** from idea to reality
-- 🎓 **Technical Mentoring** to level up your skills
-- 🏆 **Hackathon Partnership** to dominate competitions
-
-**I'm your go-to tech wizard! ⚡**
-
-[![Portfolio](https://img.shields.io/badge/🌐_Explore_My_Universe-pranshudev.xyz-blue?style=for-the-badge&logo=firefox)](https://pranshudev.xyz)
+[![Portfolio](https://img.shields.io/badge/🌐_My_Universe-pranshudev.xyz-blue?style=for-the-badge&logo=firefox)](https://pranshudev.xyz)
 [![Email](https://img.shields.io/badge/📧_Let's_Chat-contact%40pranshudev.xyz-red?style=for-the-badge&logo=gmail)](mailto:contact@pranshudev.xyz)
-[![LinkedIn](https://img.shields.io/badge/💼_Connect_Professionally-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/pranshu-chourasia-615428275)
-[![Calendar](https://img.shields.io/badge/📅_Schedule_Coffee_Chat-green?style=for-the-badge&logo=calendly)](https://calendly.com/pranshudev)
-[![Twitter](https://img.shields.io/badge/🐦_Follow_My_Journey-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/anshc022)
-[![Discord](https://img.shields.io/badge/💬_Join_My_Community-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/pranshudev)
+[![LinkedIn](https://img.shields.io/badge/💼_Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/pranshu-chourasia-615428275)
+[![Calendar](https://img.shields.io/badge/📅_Coffee_Chat-green?style=for-the-badge&logo=calendly)](https://calendly.com/pranshudev)
 
----
+### 🎯 "From AI Research to Production Apps"
+### 💫 "Building Tomorrow, One Algorithm at a Time"
 
-### 🎯 "From AI Research Papers to Production-Ready Apps"
-### 💫 "Building the Future, One Algorithm at a Time"
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev Quote"/>
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote"/>
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=anshc022.anshc022&color=ff6e96)
+[![Followers](https://img.shields.io/github/followers/anshc022?style=social&color=ff6e96)](https://github.com/anshc022)
+[![Stars](https://img.shields.io/github/stars/anshc022?style=social&color=ff6e96)](https://github.com/anshc022)
 
-![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=anshc022.anshc022&color=ff6e96&style=flat-square)
-[![GitHub followers](https://img.shields.io/github/followers/anshc022?style=social&color=ff6e96)](https://github.com/anshc022)
-[![GitHub stars](https://img.shields.io/github/stars/anshc022?style=social&color=ff6e96)](https://github.com/anshc022)
-
----
-
-### 🐍 Watch My Contributions Get Devoured!
+### 🐍 Snake Eating My Contributions
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anshc022/anshc022/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anshc022/anshc022/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/anshc022/anshc022/output/github-contribution-grid-snake.svg">
+  <img alt="Snake Animation" src="https://raw.githubusercontent.com/anshc022/anshc022/output/github-contribution-grid-snake.svg" width="100%">
 </picture>
 
-<!-- Alternative snake animation if above doesn't work -->
-<div align="center">
-  <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" alt="Snake animation" />
-</div>
-
-### 🌊 Wave Footer
+### 🌊 Thanks for Visiting!
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer" width="100%">
 
-### 🎭 Fun Animations
-<div align="center">
-  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
-  <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="100"/>
-  <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="100"/>
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30"> **You're awesome for making it this far!** <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30">
+
+*Last updated: August 2025 - Always evolving!* ⚡
+
 </div>
-
-### 🎨 Dynamic Quote
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote"/>
-</div>
-
-### 🎮 Gaming Elements
-```
-🎯 Current Level: Senior Developer
-⭐ Experience Points: 15,420 XP
-🏆 Achievements Unlocked: 47/100
-🔥 Streak: 150+ days coding
-💡 Side Quests Completed: 25+
-```
-
-### 🌟 Random Fun Facts
-- 🎪 I debug with `console.log()` and I'm proud of it!
-- 🍕 Pizza is my primary source of energy
-- 🌙 Most productive coding hours: 11 PM - 3 AM
-- 🎧 Can't code without music
-- 🤖 I dream in Python and think in JavaScript
-
-### 📈 Weekly Development Breakdown
-```text
-Python       12 hrs 30 mins  ████████████████████████▓   85.2%
-JavaScript   1 hr 45 mins    ███▓░░░░░░░░░░░░░░░░░░░░░   12.1%
-TypeScript   15 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░    1.8%
-CSS          8 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░    0.9%
-```
-
-### 🎵 Currently Jamming To
-🎶 *"Coding beats and caffeine dreams..."* 🎶
-- 🎧 **Lofi Hip Hop** - For deep focus sessions
-- 🎸 **Electronic** - For debugging marathons  
-- 🎼 **Instrumental** - For algorithm thinking
-- 🎤 **Podcasts** - For learning while coding
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
----
-
-<sub>💙 **Made with lots of ☕ and late-night coding sessions**</sub>  
-<sub>🚀 **Last updated: August 2025 - Always evolving!**</sub>
-
-### 🎊 Thanks for Visiting!
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="40"> **You're awesome for making it this far!** <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="40">
