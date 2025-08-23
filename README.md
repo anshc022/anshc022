@@ -124,89 +124,31 @@
   
 ### 🤖 AI/ML Projects
 
-</div>
+<div align="center">
 
-<table>
-<tr>
-<td width="25%" align="center">
-<img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="60"><br>
-<h4>🌽 Smart Corn Sorter</h4>
-<img src="https://img.shields.io/badge/IEEE_EPICS-$5500-gold?style=for-the-badge"><br><br>
-<img src="https://geps.dev/progress/92?color=ff6e96"><br>
-<b>92% Accuracy</b><br>
-<img src="https://geps.dev/progress/100?color=00d4aa"><br>
-<b>10K+ Seeds/Hour</b>
-</td>
-<td width="25%" align="center">
-<img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="60"><br>
-<h4>🔒 Safety Analytics</h4>
-<img src="https://img.shields.io/badge/SIH_2024-Winner-blue?style=for-the-badge"><br><br>
-<img src="https://geps.dev/progress/95?color=ff6e96"><br>
-<b>95% Accuracy</b><br>
-<img src="https://geps.dev/progress/85?color=ffb347"><br>
-<b>85% Less False+</b>
-</td>
-<td width="25%" align="center">
-<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="60"><br>
-<h4>🛒 Quality Analyzer</h4>
-<img src="https://img.shields.io/badge/Flipkart_GRiD-Finalist-purple?style=for-the-badge"><br><br>
-<img src="https://geps.dev/progress/90?color=ff6e96"><br>
-<b>90% Accuracy</b><br>
-<img src="https://geps.dev/progress/75?color=a78bfa"><br>
-<b>75% Less Manual</b>
-</td>
-<td width="25%" align="center">
-<img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="60"><br>
-<h4>🚦 Traffic AI</h4>
-<img src="https://img.shields.io/badge/Nissan_R&D-Partner-green?style=for-the-badge"><br><br>
-<img src="https://geps.dev/progress/35?color=ff6e96"><br>
-<b>35% Flow Boost</b><br>
-<img src="https://geps.dev/progress/50?color=00d4aa"><br>
-<b>50+ Simulations</b>
-</td>
-</tr>
-</table>
+| 🌽 Smart Corn Sorter | 🔒 Safety Analytics | 🛒 Quality Analyzer | 🚦 Traffic AI |
+|:---:|:---:|:---:|:---:|
+| <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="80"> | <img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="80"> | <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="80"> | <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="80"> |
+| <img src="https://img.shields.io/badge/IEEE_EPICS-$5500-gold?style=for-the-badge"> | <img src="https://img.shields.io/badge/SIH_2024-Winner-blue?style=for-the-badge"> | <img src="https://img.shields.io/badge/Flipkart_GRiD-Finalist-purple?style=for-the-badge"> | <img src="https://img.shields.io/badge/Nissan_R&D-Partner-green?style=for-the-badge"> |
+| <img src="https://geps.dev/progress/92?color=ff6e96"><br>**92% Accuracy** | <img src="https://geps.dev/progress/95?color=ff6e96"><br>**95% Accuracy** | <img src="https://geps.dev/progress/90?color=ff6e96"><br>**90% Accuracy** | <img src="https://geps.dev/progress/35?color=ff6e96"><br>**35% Flow Boost** |
+| <img src="https://geps.dev/progress/100?color=00d4aa"><br>**10K+ Seeds/Hour** | <img src="https://geps.dev/progress/85?color=ffb347"><br>**85% Less False+** | <img src="https://geps.dev/progress/75?color=a78bfa"><br>**75% Less Manual** | <img src="https://geps.dev/progress/50?color=00d4aa"><br>**50+ Simulations** |
+
+</div>
 
 <div align="center">
   
 ### 💻 Full-Stack Apps
 
-</div>
+<div align="center">
 
-<table>
-<tr>
-<td width="33%" align="center">
-<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="60"><br>
-<h4>⛏️ TrackMine</h4>
-<img src="https://img.shields.io/badge/SIH_2024-National-red?style=for-the-badge"><br>
-<a href="https://github.com/anshc022/TrackMine">
-<img src="https://img.shields.io/badge/GitHub-View-black?style=flat-square&logo=github">
-</a><br>
-<img src="https://geps.dev/progress/100?color=ff6e96"><br>
-<b>500+ Workflows</b>
-</td>
-<td width="33%" align="center">
-<img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="60"><br>
-<h4>🤖 PRoPilot</h4>
-<img src="https://img.shields.io/badge/AI_Powered-GitHub-blue?style=for-the-badge"><br>
-<a href="https://p-ro-pilot.vercel.app">
-<img src="https://img.shields.io/badge/Live-Demo-green?style=flat-square&logo=vercel">
-</a><br>
-<img src="https://geps.dev/progress/100?color=00d4aa"><br>
-<b>500+ Developers</b>
-</td>
-<td width="33%" align="center">
-<img src="https://media.giphy.com/media/l46Cy1rHbQ92uuLXa/giphy.gif" width="60"><br>
-<h4>💭 ThinkForge</h4>
-<img src="https://img.shields.io/badge/AI_Debate-Simulator-purple?style=for-the-badge"><br>
-<a href="https://devpost.com/thinkforge">
-<img src="https://img.shields.io/badge/DevPost-View-blue?style=flat-square&logo=devpost">
-</a><br>
-<img src="https://geps.dev/progress/95?color=a78bfa"><br>
-<b>95% Authentic</b>
-</td>
-</tr>
-</table>
+| ⛏️ TrackMine | 🤖 PRoPilot | 💭 ThinkForge |
+|:---:|:---:|:---:|
+| <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="80"> | <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="80"> | <img src="https://media.giphy.com/media/l46Cy1rHbQ92uuLXa/giphy.gif" width="80"> |
+| <img src="https://img.shields.io/badge/SIH_2024-National-red?style=for-the-badge"> | <img src="https://img.shields.io/badge/AI_Powered-GitHub-blue?style=for-the-badge"> | <img src="https://img.shields.io/badge/AI_Debate-Simulator-purple?style=for-the-badge"> |
+| [![GitHub](https://img.shields.io/badge/GitHub-View-black?style=flat-square&logo=github)](https://github.com/anshc022/TrackMine) | [![Demo](https://img.shields.io/badge/Live-Demo-green?style=flat-square&logo=vercel)](https://p-ro-pilot.vercel.app) | [![DevPost](https://img.shields.io/badge/DevPost-View-blue?style=flat-square&logo=devpost)](https://devpost.com/thinkforge) |
+| <img src="https://geps.dev/progress/100?color=ff6e96"><br>**500+ Workflows** | <img src="https://geps.dev/progress/100?color=00d4aa"><br>**500+ Developers** | <img src="https://geps.dev/progress/95?color=a78bfa"><br>**95% Authentic** |
+
+</div>
 
 ---
 
