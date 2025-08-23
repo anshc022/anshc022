@@ -8,10 +8,29 @@
 
 ## 🚀 About Me
 
+<table>
+<tr>
+<td width="60%">
+
 🎯 **AI/ML Engineer** passionate about creating intelligent systems that solve real-world problems  
 💻 **Full-Stack Developer** with 5+ years of experience building scalable applications  
 🏆 **IEEE Researcher** with published papers and $5500+ in research grants  
 🌟 **Entrepreneur** who generated ₹45,900 revenue in 3 months  
+
+🔥 **Currently Building:**
+- 🤖 Smart AI systems for real-world impact
+- 🚀 Scalable full-stack applications
+- 📊 Data-driven solutions for businesses
+- 🎯 Open-source tools for developers
+
+</td>
+<td width="40%">
+
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%" alt="Coding GIF">
+
+</td>
+</tr>
+</table>
 
 ## 🛠️ Tech Arsenal
 
@@ -100,10 +119,46 @@
 
 ### 🏆 Awards & Grants
 
-<img src="https://img.shields.io/badge/💰_IEEE_EPICS-$5500-gold?style=for-the-badge&logo=ieee">
-<img src="https://img.shields.io/badge/🥇_SIH_2024-Winner-red?style=for-the-badge">
-<img src="https://img.shields.io/badge/🥇_College_Hackathon-1st_Prize-blue?style=for-the-badge">
-<img src="https://img.shields.io/badge/🥇_Ideation_Comp-1st_Prize-purple?style=for-the-badge">
+<table>
+<tr>
+<td width="25%" align="center">
+<img src="https://media.giphy.com/media/26BRuo6sLetdllPAQ/giphy.gif" width="60"><br>
+<h4>💰 IEEE EPICS Grant</h4>
+<img src="https://img.shields.io/badge/Amount-$5500-gold?style=for-the-badge&logo=ieee"><br>
+<img src="https://geps.dev/progress/100?color=ffd700"><br>
+<b>Fully Funded Project</b>
+</td>
+<td width="25%" align="center">
+<img src="https://media.giphy.com/media/3oriO7A7bt1wsEP4cw/giphy.gif" width="60"><br>
+<h4>🥇 SIH 2024 Winner</h4>
+<img src="https://img.shields.io/badge/Position-1st_Place-red?style=for-the-badge"><br>
+<img src="https://geps.dev/progress/100?color=ff4444"><br>
+<b>National Level Victory</b>
+</td>
+<td width="25%" align="center">
+<img src="https://media.giphy.com/media/26tknCqiJrBQG6bxC/giphy.gif" width="60"><br>
+<h4>🏆 College Hackathon</h4>
+<img src="https://img.shields.io/badge/Achievement-Champion-blue?style=for-the-badge"><br>
+<img src="https://geps.dev/progress/100?color=4285f4"><br>
+<b>Multiple Wins</b>
+</td>
+<td width="25%" align="center">
+<img src="https://media.giphy.com/media/3o7qDEq2bMbcbPRQ2c/giphy.gif" width="60"><br>
+<h4>💡 Innovation Awards</h4>
+<img src="https://img.shields.io/badge/Category-Ideation-purple?style=for-the-badge"><br>
+<img src="https://geps.dev/progress/100?color=9c27b0"><br>
+<b>Creative Excellence</b>
+</td>
+</tr>
+</table>
+
+### 🎖️ Recognition Timeline
+
+🏅 **2024** - Smart India Hackathon National Winner  
+🏅 **2024** - IEEE EPICS $5500 Grant Recipient  
+🏅 **2023** - College Innovation Competition Champion  
+🏅 **2023** - Best Full-Stack Project Award  
+🏅 **2022** - Outstanding Research Paper IEEE ICSADL
 
 ### 📈 Impact Metrics
 
